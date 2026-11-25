@@ -1,5 +1,8 @@
 # Ignore all zip distribution packages
 *.zip
 
-# Ignore AGENTS.md - it's an instruction file, not source code
+# Ignore instruction and runtime log files - not source code
 AGENTS.md
+log_acoes.csv
+log_ciclos_com_erro.csv
+log_ciclos_com_erro_esocial.csv

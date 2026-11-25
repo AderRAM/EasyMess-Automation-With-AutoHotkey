@@ -1,0 +1,199 @@
+
+Manual de Uso Export_Dados v2.3
+Guia de operação do painel de controle e do processo de exportação automática de relatórios
+Versão do documento: 2.0
+
+Painel de Controle completo, recém-aberto (aba FAPS).
+
+Este manual explica como operar o script Export-Dados-2.3.ahk, uma ferramenta de automação (AutoHotkey v2) que exporta relatórios mensais de forma automática, navegando pelo sistema web por teclado (Ctrl+F + Tab) e percorrendo um intervalo de meses definido pelo usuário. A partir da versão 2.3, o painel tem duas abas: FAPS (folha de pagamento, o uso mais comum) e e-Social (Consultas Dinâmicas -&gt; Consulta Eventos). Só um fluxo roda por vez.
+1. Visão geral
+O FAPS Export automatiza a exportação de relatórios mês a mês, dentro de um sistema web aberto no Chrome ou no Firefox. Para cada mês do intervalo configurado, o script:
+1.  Preenche o filtro de Referência (data início e data fim daquele mês);
+2.  Clica em Executar na página de filtros;
+3.  Confere se a página de resultados trouxe uma quantidade mínima de registros;
+4.  Exporta o relatório em CSV;
+5.  Salva o arquivo na pasta de destino, com um nome de arquivo padronizado (AAAAMM_prefixo);
+6.  Volta para a página de filtros e repete para o mês seguinte.
+Tudo isso é feito simulando teclado (não mouse) - por isso a janela do navegador precisa estar em primeiro plano e focada durante todo o processo, e o computador não deve ser usado para outra coisa enquanto o script roda.
+2. Requisitos antes de começar
+•  AutoHotkey v2 instalado no computador.
+•  Chrome ou Firefox aberto, já logado no sistema, com a tela de Consulta de Eventos do relatório visível.
+•  Saber de antemão o intervalo de meses, a entidade/órgão auditado, a pasta de destino e se será necessário aplicar um Tipo de Folha e/ou Classe de Conta específicos.
+Não é necessário mexer em nenhum desses arquivos manualmente - o painel de controle cuida de tudo.
+3. O Painel de Controle
+Ao dar duplo clique em Export-Dados-2.3.ahk, uma janela chamada FAPS Export - Painel de Controle é aberta, dividida em duas abas (FAPS e e-Social). É por ela que toda a configuração é feita.
+
+Executável do programa (Export-Dados-2.3.ahk).
+
+4. Campos do painel (aba FAPS)
+4.1 Data início / Data fim
+Dois campos no formato AAAAMM (ano e mês, sem barra - ex.: 202607 para julho/2026).
+•  Data início: o mês mais recente do intervalo (o script começa por ele e vai retrocedendo mês a mês).
+•  Data fim: o mês mais antigo do intervalo (onde o script para).
+Cada campo pode ser preenchido digitando diretamente o valor AAAAMM, ou clicando no botão Calendário... ao lado, que abre um minicalendário para escolher o mês visualmente (o dia clicado não importa, só o mês/ano contam).
+
+Campo para definir as datas de intervalo.
+
+4.2 Entidade
+Campo de texto com lista suspensa (combo editável). Nele se informa o órgão/entidade que está sendo auditado (ex.: IPAM, Prefeitura, Câmara, FAS, Pensionistas, Inativos...).
+•  Pode-se digitar um nome novo ou escolher um já usado antes na seta ao lado - o script lembra os últimos nomes usados.
+•  Esse valor entra na composição do nome do arquivo exportado, junto com a Classe de Conta escolhida (seção 4.5).
+
+Campo Entidade com o histórico suspenso aberto.
+
+4.3 Pasta de destino
+Define onde os arquivos exportados serão salvos.
+•  Digite o caminho diretamente, ou clique em Procurar... para escolher a pasta pela janela do Windows.
+•  Se a pasta digitada não existir, o script a cria automaticamente ao iniciar.
+•  O botão ◀ ao lado sobe um nível de pasta a partir do caminho digitado - útil quando só o nome da última subpasta muda de uma exportação para outra.
+•  Este campo é obrigatório - o script recusa iniciar (mostra um aviso) se estiver vazio.
+
+Campo Pasta de destino e botões Procurar / ◀.
+
+4.4 Tipo de Folha
+Lista suspensa com as seguintes opções:
+Opção no painel
+Códigos aplicados
+(nenhum)
+Não aplica nada
+Normal (IPAM/Prefeitura/Câmara/FAS)
+1, 4, 12, 16, 22
+Pensionistas
+2, 10, 32, 33
+Inativos
+1, 9, 22, 23
+
+Depois de escolher a opção desejada, clique no botão Aplicar Tipo Folha na página logo abaixo - isso faz o script preencher automaticamente a caixa Tipo Folha na tela do site, substituindo qualquer valor que já estivesse lá.
+ATENÇÃO: este botão só funciona com o navegador já aberto e focado na tela de Consulta de Eventos - é uma ação manual, feita antes de iniciar os ciclos automáticos (F1/Executar).
+
+Botão Tipo de Folha e botão Aplicar Tipo Folha na página.
+
+4.5 Classe de Conta
+Combo editável com as opções pré-definidas:
+Opção no painel
+Códigos aplicados
+Sufixo do nome do arquivo
+(nenhuma)
+Não aplica nada
+-
+A - 874/875/876/877/878/879
+874, 875, 876, 877, 878, 879
+874_875_876_877_878_879_
+S - BASE
+9081, 9084, 9086, 9089, 9091, 9094
+BASE_9081_9084_9086_9089_9091_9094_
+D - PATRONAL
+9085, 9082, 9087, 9090, 9095, 9092
+PATRONAL_9085_9082_9087_9090_9095_9092_
+RPC - Previdência Complementar (conforme Entidade)
+varia conforme a Entidade digitada
+RPC_..._
+
+Também é possível digitar códigos avulsos diretamente no campo (ex.: 100, 200, 300), separados por vírgula, espaço ou qualquer outro caractere - útil quando nenhuma classe pronta se aplica.
+ATENÇÃO: a classe RPC só funciona se o campo Entidade estiver preenchido com Prefeitura, FAS ou Câmara (maiúscula/minúscula e acento não importam) - sem isso, o script avisa e não aplica nada, mantendo o prefixo do arquivo como estava.
+Depois de escolher/digitar, clique em Aplicar Conta na página - o script preenche a caixa Conta na tela do sistema.
+ATENÇÃO: assim como o Tipo de Folha, é uma ação manual feita antes de iniciar os ciclos. O prefixo do nome do arquivo final é sempre Entidade_SufixoDaClasse (ex.: IPAM_874_875_876_877_878_879_). Esse prefixo é lembrado mesmo depois de um Reset (F3).
+
+Classe de Conta e botão Aplicar Conta na página.
+
+4.6 Botões principais: Executar / Pausar / Resetar
+•  Executar - inicia o processamento automático de todos os meses do intervalo configurado (equivale à tecla F1). Antes de clicar, o foco deve estar na janela do navegador, na tela correta.
+•  Pausar / Retomar - pausa o script no meio de um ciclo; o texto do botão muda para Retomar enquanto pausado. Para retomar, use este botão ou a tecla F1.
+•  Resetar - reinicia o script do zero, já em estado pausado, sem perder a Classe de Conta aplicada (equivale à F3).
+5. Aba e-Social
+Abacenter635 e-Social com Entidade e Tipo de Folha preenchidos.
+
+A aba e-Social funciona de forma parecida com a aba FAPS, com estas diferenças:
+•  Entidade é uma lista fixa (não editável): Prefeitura, IPAM, Câmara, Inativos ou Pensionistas. Inativos e Pensionistas são tratados como entidades separadas, cada uma gerando seu próprio arquivo.
+•  Tipo de Folha usa as mesmas opções e códigos da aba FAPS (seção 4.4).
+•  Em vez de Pasta de destino, há uma Pasta base: o script organiza os arquivos sozinho, criando uma subpasta por mês dentro dela, no formato MMAAAA\CONSULTA EVENTOS.
+•  Não existe botão Aplicar Conta nesta aba: a Conta é calculada e preenchida automaticamente a cada mês do lote, porque um dos códigos (referente a férias) muda mês a mês. Não é preciso nenhuma ação manual para isso.
+•  O botão principal se chama Executar e-Social. Os botões Pausar e Resetar são os mesmos da aba FAPS - pausar ou resetar afeta o lote em andamento, seja ele FAPS ou e-Social.
+center635 Dropdown fixo de Entidade da aba e-Social mostrando as 5 opções.
+
+6. Atalhos de teclado (hotkeys)
+Os atalhos funcionam em paralelo aos botões da interface - usar um não impede o uso do outro. Funcionam mesmo se a janela do painel não estiver em foco (desde que o AutoHotkey esteja rodando).
+Tecla
+Ação
+F1
+Inicia o processamento da aba ativa (FAPS ou e-Social), ou retoma se já estiver pausado (foco na janela do navegador ANTES de apertar)
+F2
+Pausa o processamento. Só pausa - não alterna; para retomar, use sempre F1
+F3
+Reseta o script (reinicia sem fechar de vez, mantendo a Classe de Conta)
+Esc
+Aborta o script imediatamente
+
+7. Passo a passo de uso
+1.  Abra o Chrome ou o Firefox e navegue até a tela de Consulta de Eventos do sistema, já logado.
+2.  Dê duplo clique em Export-Dados-2.3.ahk para abrir o Painel de Controle.
+3.  Escolha a aba (FAPS ou e-Social) e preencha Data início, Data fim e Entidade.
+4.  Preencha a Pasta de destino (FAPS) ou a Pasta base (e-Social).
+5.  Se necessário, escolha o Tipo de Folha e clique em Aplicar Tipo Folha na página - com o navegador em foco na tela correta.
+6.  Na aba FAPS, se necessário, escolha a Classe de Conta (ou digite códigos avulsos) e clique em Aplicar Conta na página.
+7.  Confira visualmente na tela do sistema se os campos ficaram como esperado.
+8.  Clique novamente na janela do navegador para garantir que ela está em foco.
+9.  Clique em Executar (ou Executar e-Social) no painel, ou aperte F1.
+10.  Acompanhe o Status no painel - ele muda para Rodando....
+11.  Não use o mouse/teclado para outra coisa enquanto o script roda - ele está simulando teclas no navegador.
+12.  Se precisar interromper temporariamente, aperte F2 (ou clique em Pausar); para continuar, aperte F1 (ou clique em Retomar).
+13.  Se algo travar ou sair do previsto, aperte F3 (Resetar) ou Esc (Abortar).
+14.  Ao final de todos os meses, uma mensagem Processo finalizado aparece, indicando para conferir os avisos de erro caso algum mês tenha falhado.
+
+Mensagem Processo finalizado ao término do lote.
+
+8. O que acontece durante a execução
+Para cada mês do intervalo, o script:
+1.  Confirma que está na página de Filtros (se não estiver, tenta se recuperar clicando em Voltar automaticamente);
+2.  Na aba e-Social, reaplica a Conta sozinho antes de tudo, já que um dos códigos muda por mês;
+3.  Preenche o campo Referência com a data de início e fim daquele mês;
+4.  Clica em Executar, na página, e aguarda a página de resultados carregar;
+5.  Verifica a quantidade de resultados - se vier menos que 20 registros, o ciclo daquele mês é abortado (exceto na classe RPC, que costuma trazer poucos resultados mesmo e por isso não segue essa regra);
+6.  Clica em Exportar em PDF, escolhe o formato CSV no menu, e salva o arquivo na pasta de destino com o nome padronizado;
+7.  Clica em Voltar para retornar à página de filtros e seguir para o próximo mês.
+Esse processo se repete automaticamente, mês a mês, até chegar na Data fim configurada.
+9. Arquivos gerados pelo script
+Arquivo
+Conteúdo
+log_ciclos_com_erro.csv
+Lista apenas os meses (ciclos) do FAPS que tiveram erro ou foram abortados, com o motivo. É o primeiro lugar a checar após rodar um lote.
+log_ciclos_com_erro_esocial.csv
+A mesma coisa, só que para os meses do e-Social.
+log_acoes.csv
+Registro detalhado de cada ação individual (clique, digitação, espera), com o tempo que levou. Só costuma ser necessário se for preciso entender com calma um problema mais complicado.
+config_v3.ini
+Guarda os últimos valores digitados no painel e o histórico de entidades/classes usadas.
+classe_atual.txt
+Guarda a última Classe de Conta aplicada, para sobreviver a um Reset (F3).
+
+10. Avisos, erros e o que fazer em cada caso
+O script mostra pequenos avisos na bandeja do Windows e toca um bipe sonoro quando um ciclo é abortado. Alguns cenários comuns:
+Mensagem
+O que fazer
+Defina a pasta de destino / a pasta base na interface antes de iniciar.
+Preencha o campo de pasta correspondente à aba usada antes de clicar em Executar/F1.
+Não encontrei uma janela do Chrome nem do Firefox.
+O navegador precisa estar aberto, na tela certa. Abra-o antes de iniciar.
+Já tem um lote rodando (FAPS ou e-Social).
+Espere terminar (ou aperte Esc para abortar) antes de iniciar o outro fluxo - os dois usam a mesma aba do navegador.
+Escolha uma Entidade válida antes de executar. (e-Social)
+Selecione uma das 5 opções da lista de Entidade antes de Executar.
+Inconsistência Detectada! Apenas N resultado(s) encontrado(s) (mínimo 20)
+Pode ser um mês com poucos lançamentos, ou filtro errado. Confira manualmente esse mês depois.
+Ciclo abortado: não chegou na página de resultados / não retornou à página 1
+O script já tenta se recuperar sozinho; se persistir, reinicie com F3 e retome do mês seguinte.
+Ação lenta detectada
+Aviso informativo, não é erro - só avisa que um passo demorou mais que o esperado.
+Atenção: confira a caixa Conta / Tipo Folha
+A página rejeitou algum código como incompatível. Confira manualmente a caixa antes de iniciar os ciclos.
+Preencha o campo Entidade com Prefeitura, FAS ou Câmara. (classe RPC)
+Só aparece ao tentar aplicar a classe RPC sem uma dessas 3 entidades preenchidas.
+
+11. Cuidados importantes
+•  Não mexa no mouse/teclado nem troque de janela enquanto o script está rodando - ele depende do foco estar sempre no navegador, na aba/janela correta.
+•  Sempre confira o Status no painel antes de sair do computador durante uma execução longa.
+•  Ao Aplicar Tipo Folha ou Aplicar Conta, confira visualmente a página para ver se todos os valores foram aplicados.
+•  FAPS e e-Social nunca rodam ao mesmo tempo - os dois usam a mesma aba do navegador.
+•  Chrome e Firefox são suportados - o script detecta sozinho qual está aberto (se os dois estiverem, ele prioriza o Chrome).
+•  Em caso de dúvida sobre o que o script está fazendo, consulte log_acoes.csv.
+•  O intervalo de meses vai sempre do mais recente (Data início) para o mais antigo (Data fim) - se invertidos, o script não processa nenhum mês.

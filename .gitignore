@@ -1,0 +1,5 @@
+# Ignore all zip distribution packages
+*.zip
+
+# Ignore AGENTS.md - it's an instruction file, not source code
+AGENTS.md

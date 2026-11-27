@@ -468,7 +468,7 @@ InserirCampoMultiSelect(listaValores, campoBusca, entersInserir, ativarComEnter,
     valoresTexto := ""
        for valor in listaValores {
         EnviarTexto(valor)
-        Aguardar(delayMedio)
+        Aguardar(500)
         EnviarTecla("{Tab}")
         Aguardar(delayCurto)
         EnviarTecla("+{Tab}")

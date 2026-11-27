@@ -1,0 +1,998 @@
+2026-09-25 15:54:44;-;Limpar caixa Tipo Folha;2156;5000;NAO;OK;
+2026-09-25 15:54:50;-;Inserir Tipo Folha;5703;5000;SIM;OK;qtd=5 valores=1,12,16,22,4
+2026-09-25 15:55:14;202609;Inicio ciclo e-Social;24000;5000;SIM;OK;datainicio=01/09/2026 datafim=30/09/2026 entidade=PREFEITURA
+2026-09-25 15:55:14;202609;Aguardar PAGINA1;234;10000;NAO;OK;esperou 234ms
+2026-09-25 15:55:16;202609;Limpar caixa Conta;2110;5000;NAO;OK;
+2026-09-25 15:55:40;-;Limpar caixa Tipo Folha;2094;5000;NAO;OK;
+2026-09-25 15:55:41;-;Limpar caixa Tipo Folha;937;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-09-25 15:55:46;-;Inserir Tipo Folha;4656;5000;NAO;OK;qtd=5 valores=1,12,16,22,4
+2026-09-25 15:55:55;202609;Inicio ciclo e-Social;9203;5000;SIM;OK;datainicio=01/09/2026 datafim=30/09/2026 entidade=PREFEITURA
+2026-09-25 15:55:55;202609;Aguardar PAGINA1;219;10000;NAO;OK;esperou 219ms
+2026-09-25 15:55:57;202609;Limpar caixa Conta;2125;5000;NAO;OK;
+2026-09-25 16:38:49;-;Limpar caixa Tipo Folha;2156;5000;NAO;OK;
+2026-09-25 16:38:55;-;Inserir Tipo Folha;5610;5000;SIM;OK;qtd=5 valores=1,12,16,22,4
+2026-09-25 16:39:04;202609;Inicio ciclo e-Social;9687;5000;SIM;OK;datainicio=01/09/2026 datafim=30/09/2026 entidade=PREFEITURA
+2026-09-25 16:39:04;202609;Aguardar PAGINA1;219;10000;NAO;OK;esperou 219ms
+2026-09-25 16:39:07;202609;Limpar caixa Conta;2094;5000;NAO;OK;
+2026-09-25 16:39:23;202609;Inserir Conta;16203;5000;SIM;OK;qtd=37 valores=476,545,478,485,398,746,747,722,542,845,873,546,547,851,543,852,848,541,872,849,838,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-09-25 16:39:24;202609;Localizar: Referência;953;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-09-25 16:39:24;202609;Digitar data inicio;125;5000;NAO;OK;01/09/2026
+2026-09-25 16:39:24;202609;Tab entre campos;125;5000;NAO;OK;qtd=2
+2026-09-25 16:39:24;202609;Digitar data fim;109;5000;NAO;OK;30/09/2026
+2026-09-25 16:39:25;202609;Localizar: Executar;969;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-09-25 16:39:25;202609;Confirmar Executar (tentativa 1);297;5000;NAO;OK;
+2026-09-25 16:39:29;202609;Aguardar PAGINA2;3875;10000;NAO;OK;esperou 3844ms
+2026-09-25 16:39:30;202609;Obter quantidade resultados;281;5000;NAO;OK;qtd=18
+2026-09-25 16:39:30;202609;Validacao quantidade;328;5000;NAO;ABORTADO;Inconsistencia: Apenas 18 resultado(s) encontrado(s) (minimo 20)
+2026-09-25 16:39:31;202609;Estado antes de Voltar;969;5000;NAO;OK; | MUNICIPIO DE CAXIAS DO SUL | [Calculadoras] ipam_pslorenzzetti | Sair | Tabelas | Lançamentos | Cálculos | Relatórios | Controle de Frequência | Cursos e Treinamentos | Geração de Arquivos | Importação Dados IPAM | Portal do Servidor (Interno) | Controle de Acessos | Consultas Dinâmicas |  |     Consulta Servidores |     Consulta de Eventos |     Consulta Servidores (nativo ADMRH) |  | Consulta de Eventos | [Adicionar/Remover Favoritos] 	 | 	[Ejetar Janela] | Colunas | 977.782.140-91	8.591	MARCELO APPIO	02/03/1982	1 - MENSAL	01/09/2026	Desconto	845 - IPAM Saúde	1,00	1,00		278,28	556,56	I	Importação diversos	92 - FISCAL DE TRANSITO E TRANSPORTES	92 - FISCAL DE TRÂNSITO E TRANSPORTES	180	TR13	TR13	A	18/12/2003	18/12/2003	13 - SECRETARIA MUNICIPAL DO TRANSITO, TRANSPORTES E MOBILIDADE	13135 - SERVICOS NO AEROPORTO REGIONAL	1313511 - SMTTM - GERENCIA DE INFRAEST. DO AEROPORTO MUNICIPAL			1 - ESTATUTÁRIO	13135 - SERVICOS NO AEROPORTO REGIONAL	0 - Ativo		mappio@caxias.rs.gov.br	(54) 8425-1367 | 832.461.420-68	14.466	JOELMIR DA SILVA NETO	03/03/1986	1 - MENSAL	01/09/2026	Desconto	845 - IPAM Saúde	1,00	1,00		475,26	285,16	I	Importação diversos	10550 - AGENTE ADMINISTRATIVO - LC 409	20017 - DIRETORIA DO AEROPORTO MUNICIPAL	200	TR12	FG-8	A	16/09/2004	16/09/2004	13 - SECRETARIA MUNICIPAL DO TRANSITO, TRANSPORTES E MOBILIDADE	13135 - SERVICOS NO AEROPORTO REGIONAL	1313511 - SMTTM - GERENCIA DE INFRAEST. DO AEROPORTO MUNICIPAL			1 - ESTATUTÁRIO	13135 - SERVICOS NO AEROPORTO REGIONAL	0 - Ativo		j-sneto@hotmail.com	(54) 98125-4085 | 014.331.500-50	37.617	DION ERICH NOGUEIRA ANTUNES	07/02/2000	1 - MENSAL	01/09/2026	Desconto	845 - IPAM Saúde	1,00	1,00		286,39	286,39	I	Importação diversos	10550 - AGENTE ADMINISTRATIVO - LC 409	10550 - AGENTE ADMINISTRATIVO - LC 409	200	TR12	TR12	A	01/12/2025	01/12/2025	13 - SECRETARIA MUNICIPAL DO TRANSITO, TRANSPORTES E MOBILIDADE	13135 - SERVICOS NO AEROPORTO REGIONAL	1313511 - SMTTM - GERENCIA DE INFRAEST. DO AEROPORTO MUNICIPAL			1 - ESTATUTÁR...(truncado, total=9828 chars)
+2026-09-25 16:39:32;202609;Localizar: Voltar;1078;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-09-25 16:39:33;202609;Confirmar Voltar (tentativa 1);813;5000;NAO;OK;
+2026-09-25 16:39:33;202609;Aguardar PAGINA1;359;10000;NAO;OK;esperou 344ms
+2026-09-25 16:39:33;202609;Fim ciclo e-Social;16;5000;NAO;OK;duracao_total_ms=28813
+2026-09-29 11:32:37;-;Limpar caixa Tipo Folha;2109;5000;NAO;OK;
+2026-09-29 11:32:38;-;Limpar caixa Tipo Folha;985;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-09-29 11:32:42;-;Inserir Tipo Folha: valor(es) aparentemente faltando (checagem sujeita a falso alarme);4672;5000;NAO;AVISO;faltando=12 valores_inseridos=1,12,16,22,4
+2026-09-29 11:32:59;-;Limpar caixa Tipo Folha;2140;5000;NAO;OK;
+2026-09-29 11:33:00;-;Limpar caixa Tipo Folha;938;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-09-29 11:33:05;-;Inserir Tipo Folha;4781;5000;NAO;OK;qtd=5 valores=1,12,16,22,4
+2026-09-29 11:33:19;202609;Inicio ciclo e-Social;13844;5000;SIM;OK;datainicio=01/09/2026 datafim=30/09/2026 entidade=IPAM
+2026-09-29 11:33:19;202609;Aguardar PAGINA1;265;10000;NAO;OK;esperou 250ms
+2026-09-29 11:33:21;202609;Limpar caixa Conta;2125;5000;NAO;OK;
+2026-09-29 11:33:37;202609;Inserir Conta;15563;5000;SIM;OK;qtd=35 valores=476,544,478,485,398,746,747,722,542,845,873,546,851,543,852,848,541,872,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-09-29 11:33:38;202609;Localizar: Referência;953;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-09-29 11:33:38;202609;Digitar data inicio;125;5000;NAO;OK;01/09/2026
+2026-09-29 11:33:38;202609;Tab entre campos;125;5000;NAO;OK;qtd=2
+2026-09-29 11:33:38;202609;Digitar data fim;141;5000;NAO;OK;30/09/2026
+2026-09-29 11:33:39;202609;Localizar: Executar;968;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-09-29 11:33:39;202609;Confirmar Executar (tentativa 1);297;5000;NAO;OK;
+2026-09-29 11:33:41;202609;Aguardar PAGINA2;2203;10000;NAO;OK;esperou 2187ms
+2026-09-29 11:33:42;202609;Obter quantidade resultados;282;5000;NAO;OK;qtd=60
+2026-09-29 11:33:43;202609;Confirmar Exportar em PDF;1031;5000;NAO;OK;
+2026-09-29 11:33:44;202609;Seta para baixo 1/10;844;5000;NAO;OK;
+2026-09-29 11:33:44;202609;Seta para baixo 2/10;46;5000;NAO;OK;
+2026-09-29 11:33:44;202609;Seta para baixo 3/10;47;5000;NAO;OK;
+2026-09-29 11:33:44;202609;Seta para baixo 4/10;47;5000;NAO;OK;
+2026-09-29 11:33:44;202609;Seta para baixo 5/10;47;5000;NAO;OK;
+2026-09-29 11:33:44;202609;Seta para baixo 6/10;78;5000;NAO;OK;
+2026-09-29 11:33:44;202609;Seta para baixo 7/10;47;5000;NAO;OK;
+2026-09-29 11:33:44;202609;Seta para baixo 8/10;47;5000;NAO;OK;
+2026-09-29 11:33:44;202609;Seta para baixo 9/10;62;5000;NAO;OK;
+2026-09-29 11:33:44;202609;Seta para baixo 10/10;47;5000;NAO;OK;
+2026-09-29 11:33:44;202609;Selecionar formato CSV;125;5000;NAO;OK;tempo desde Enter que confirmou match ate aqui=1547ms
+2026-09-29 11:33:44;202609;Estado apos Enter final (formato);157;5000;NAO;OK;Exportar para XML
+2026-09-29 11:33:49;202609;Janela Salvar como;4953;5000;NAO;OK;saiu da URL do site (Salvar como presumido em foco)
+2026-09-29 11:33:51;202609;Definir pasta destino;1859;5000;NAO;OK;A:\setorsistemas\Facil Informatica\_FOLHAPAGAMENTO\ARQUIVOS ESOCIAL\Exportados\092026\CONSULTA EVENTOS
+2026-09-29 11:33:53;202609;Salvar arquivo;2016;5000;NAO;OK;202609_IPAM_Consulta Eventos
+2026-09-29 11:33:55;202609;Estado antes de Voltar;1750;5000;NAO;OK;https://admrhipam.caxias.rs.gov.br/rhsysweb/secure/XcpExecObjForm.xhtml?com.xcape.codObjeto=Consulta%20Eventos
+2026-09-29 11:33:56;202609;Localizar: Voltar;1078;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-09-29 11:33:57;202609;Confirmar Voltar (tentativa 1);812;5000;NAO;OK;
+2026-09-29 11:33:58;202609;Aguardar PAGINA1;922;10000;NAO;OK;esperou 906ms
+2026-09-29 11:33:58;202609;Fim ciclo e-Social;16;5000;NAO;OK;duracao_total_ms=39078
+2026-09-29 11:35:05;202609;Limpar caixa Tipo Folha;2125;5000;NAO;OK;
+2026-09-29 11:35:05;202609;Limpar caixa Tipo Folha;953;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-09-29 11:35:10;202609;Inserir Tipo Folha: valor(es) aparentemente faltando (checagem sujeita a falso alarme);4656;5000;NAO;AVISO;faltando=12 valores_inseridos=1,12,16,22,4
+2026-09-29 11:35:23;202609;Limpar caixa Tipo Folha;2109;5000;NAO;OK;
+2026-09-29 11:35:24;202609;Limpar caixa Tipo Folha;953;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-09-29 11:35:28;202609;Inserir Tipo Folha;4688;5000;NAO;OK;qtd=5 valores=1,12,16,22,4
+2026-09-29 11:35:38;202609;Inicio ciclo e-Social;9531;5000;SIM;OK;datainicio=01/09/2026 datafim=30/09/2026 entidade=CAMARA
+2026-09-29 11:35:38;202609;Aguardar PAGINA1;250;10000;NAO;OK;esperou 234ms
+2026-09-29 11:35:40;202609;Limpar caixa Conta;2094;5000;NAO;OK;
+2026-09-29 11:35:55;202609;Inserir Conta: valor(es) aparentemente faltando (checagem sujeita a falso alarme);14547;5000;SIM;AVISO;faltando=542 valores_inseridos=476,545,478,485,398,746,747,722,542,845,851,543,852,848,541,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-09-29 11:35:56;202609;Localizar: Referência;1031;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-09-29 11:35:56;202609;Digitar data inicio;125;5000;NAO;OK;01/09/2026
+2026-09-29 11:35:56;202609;Tab entre campos;125;5000;NAO;OK;qtd=2
+2026-09-29 11:35:56;202609;Digitar data fim;125;5000;NAO;OK;30/09/2026
+2026-09-29 11:35:57;202609;Localizar: Executar;953;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-09-29 11:35:57;202609;Confirmar Executar (tentativa 1);297;5000;NAO;OK;
+2026-09-29 11:35:59;202609;Aguardar PAGINA2;2094;10000;NAO;OK;esperou 2078ms
+2026-09-29 11:36:00;202609;Obter quantidade resultados;281;5000;NAO;OK;qtd=47
+2026-09-29 11:36:01;202609;Confirmar Exportar em PDF;1000;5000;NAO;OK;
+2026-09-29 11:36:02;202609;Seta para baixo 1/10;828;5000;NAO;OK;
+2026-09-29 11:36:02;202609;Seta para baixo 2/10;31;5000;NAO;OK;
+2026-09-29 11:36:02;202609;Seta para baixo 3/10;47;5000;NAO;OK;
+2026-09-29 11:36:02;202609;Seta para baixo 4/10;32;5000;NAO;OK;
+2026-09-29 11:36:02;202609;Seta para baixo 5/10;46;5000;NAO;OK;
+2026-09-29 11:36:02;202609;Seta para baixo 6/10;32;5000;NAO;OK;
+2026-09-29 11:36:02;202609;Seta para baixo 7/10;31;5000;NAO;OK;
+2026-09-29 11:36:02;202609;Seta para baixo 8/10;62;5000;NAO;OK;
+2026-09-29 11:36:02;202609;Seta para baixo 9/10;32;5000;NAO;OK;
+2026-09-29 11:36:02;202609;Seta para baixo 10/10;31;5000;NAO;OK;
+2026-09-29 11:36:02;202609;Selecionar formato CSV;109;5000;NAO;OK;tempo desde Enter que confirmou match ate aqui=1390ms
+2026-09-29 11:36:02;202609;Estado apos Enter final (formato);157;5000;NAO;OK;Exportar em PDF | ui-button | 
+2026-09-29 11:36:17;-;Limpar caixa Tipo Folha;2250;5000;NAO;OK;
+2026-09-29 11:36:18;-;Limpar caixa Tipo Folha;953;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-09-29 11:36:23;-;Inserir Tipo Folha;4672;5000;NAO;OK;qtd=5 valores=1,12,16,22,4
+2026-09-29 11:36:25;202609;Inicio ciclo e-Social;2453;5000;NAO;OK;datainicio=01/09/2026 datafim=30/09/2026 entidade=CAMARA
+2026-09-29 11:36:26;202609;Aguardar PAGINA1;234;10000;NAO;OK;esperou 218ms
+2026-09-29 11:36:28;202609;Limpar caixa Conta;2079;5000;NAO;OK;
+2026-09-29 11:36:42;202609;Inserir Conta;14531;5000;SIM;OK;qtd=32 valores=476,545,478,485,398,746,747,722,542,845,851,543,852,848,541,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-09-29 11:36:43;202609;Localizar: Referência;937;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-09-29 11:36:43;202609;Digitar data inicio;125;5000;NAO;OK;01/09/2026
+2026-09-29 11:36:43;202609;Tab entre campos;125;5000;NAO;OK;qtd=2
+2026-09-29 11:36:44;202609;Digitar data fim;110;5000;NAO;OK;30/09/2026
+2026-09-29 11:36:44;202609;Localizar: Executar;953;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-09-29 11:36:45;202609;Confirmar Executar (tentativa 1);297;5000;NAO;OK;
+2026-09-29 11:36:46;202609;Aguardar PAGINA2;890;10000;NAO;OK;esperou 875ms
+2026-09-29 11:36:46;202609;Obter quantidade resultados;282;5000;NAO;OK;qtd=47
+2026-09-29 11:36:47;202609;Confirmar Exportar em PDF;1015;5000;NAO;OK;
+2026-09-29 11:36:48;202609;Seta para baixo 1/10;844;5000;NAO;OK;
+2026-09-29 11:36:48;202609;Seta para baixo 2/10;31;5000;NAO;OK;
+2026-09-29 11:36:48;202609;Seta para baixo 3/10;31;5000;NAO;OK;
+2026-09-29 11:36:48;202609;Seta para baixo 4/10;32;5000;NAO;OK;
+2026-09-29 11:36:48;202609;Seta para baixo 5/10;31;5000;NAO;OK;
+2026-09-29 11:36:48;202609;Seta para baixo 6/10;31;5000;NAO;OK;
+2026-09-29 11:36:48;202609;Seta para baixo 7/10;47;5000;NAO;OK;
+2026-09-29 11:36:48;202609;Seta para baixo 8/10;47;5000;NAO;OK;
+2026-09-29 11:36:48;202609;Seta para baixo 9/10;31;5000;NAO;OK;
+2026-09-29 11:36:48;202609;Seta para baixo 10/10;31;5000;NAO;OK;
+2026-09-29 11:36:48;202609;Selecionar formato CSV;125;5000;NAO;OK;tempo desde Enter que confirmou match ate aqui=1390ms
+2026-09-29 11:36:48;202609;Estado apos Enter final (formato);157;5000;NAO;OK;Exportar em PDF | ui-button | Executar | 
+2026-09-29 11:36:52;202609;Janela Salvar como;3484;5000;NAO;OK;saiu da URL do site (Salvar como presumido em foco)
+2026-09-29 11:36:54;202609;Definir pasta destino;1844;5000;NAO;OK;A:\setorsistemas\Facil Informatica\_FOLHAPAGAMENTO\ARQUIVOS ESOCIAL\Exportados\092026\CONSULTA EVENTOS
+2026-09-29 11:36:55;202609;Salvar arquivo;1656;5000;NAO;OK;202609_CAMARA_Consulta Eventos
+2026-09-29 11:36:57;202609;Estado antes de Voltar;1734;5000;NAO;OK;https://admrhcamara.caxias.rs.gov.br/rhsysweb/secure/XcpExecObjForm.xhtml?com.xcape.codObjeto=Consulta%20Eventos
+2026-09-29 11:36:58;202609;Localizar: Voltar;1063;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-09-29 11:36:59;202609;Confirmar Voltar (tentativa 1);812;5000;NAO;OK;
+2026-09-29 11:37:00;202609;Aguardar PAGINA1;891;10000;NAO;OK;esperou 875ms
+2026-09-29 11:37:00;202609;Fim ciclo e-Social;16;5000;NAO;OK;duracao_total_ms=34516
+2026-09-29 11:39:55;202609;Limpar caixa Tipo Folha;2109;5000;NAO;OK;
+2026-09-29 11:39:56;202609;Limpar caixa Tipo Folha;953;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-09-29 11:40:00;202609;Inserir Tipo Folha;4422;5000;NAO;OK;qtd=4 valores=1,9,22,23
+2026-09-29 11:40:07;202609;Inicio ciclo e-Social;6766;5000;SIM;OK;datainicio=01/09/2026 datafim=30/09/2026 entidade=INATIVOS
+2026-09-29 11:40:07;202609;Aguardar PAGINA1;234;10000;NAO;OK;esperou 218ms
+2026-09-29 11:40:09;202609;Limpar caixa Conta;2110;5000;NAO;OK;
+2026-09-29 11:40:22;202609;Inserir Conta;12625;5000;SIM;OK;qtd=26 valores=476,545,478,485,398,746,747,722,7849,7852,542,845,7846,7851,7850,851,7851,852,848,541,7845,849,853,484,739,840
+2026-09-29 11:40:23;202609;Localizar: Referência;968;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-09-29 11:40:23;202609;Digitar data inicio;125;5000;NAO;OK;01/09/2026
+2026-09-29 11:40:23;202609;Tab entre campos;141;5000;NAO;OK;qtd=2
+2026-09-29 11:40:23;202609;Digitar data fim;109;5000;NAO;OK;30/09/2026
+2026-09-29 11:40:24;202609;Localizar: Executar;954;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-09-29 11:40:25;202609;Confirmar Executar (tentativa 1);296;5000;NAO;OK;
+2026-09-29 11:40:36;202609;Aguardar PAGINA2;10922;10000;SIM;OK;esperou 10906ms
+2026-09-29 11:40:36;202609;Obter quantidade resultados;360;5000;NAO;OK;qtd=7329
+2026-09-29 11:40:37;202609;Confirmar Exportar em PDF;984;5000;NAO;OK;
+2026-09-29 11:40:38;202609;Seta para baixo 1/10;844;5000;NAO;OK;
+2026-09-29 11:40:38;202609;Seta para baixo 2/10;47;5000;NAO;OK;
+2026-09-29 11:40:38;202609;Seta para baixo 3/10;47;5000;NAO;OK;
+2026-09-29 11:40:38;202609;Seta para baixo 4/10;46;5000;NAO;OK;
+2026-09-29 11:40:38;202609;Seta para baixo 5/10;47;5000;NAO;OK;
+2026-09-29 11:40:38;202609;Seta para baixo 6/10;47;5000;NAO;OK;
+2026-09-29 11:40:38;202609;Seta para baixo 7/10;47;5000;NAO;OK;
+2026-09-29 11:40:38;202609;Seta para baixo 8/10;47;5000;NAO;OK;
+2026-09-29 11:40:38;202609;Seta para baixo 9/10;47;5000;NAO;OK;
+2026-09-29 11:40:38;202609;Seta para baixo 10/10;47;5000;NAO;OK;
+2026-09-29 11:40:38;202609;Selecionar formato CSV;125;5000;NAO;OK;tempo desde Enter que confirmou match ate aqui=1500ms
+2026-09-29 11:40:38;202609;Estado apos Enter final (formato);156;5000;NAO;OK;Exportar em PDF | ui-button | Executar | 
+2026-09-29 11:40:55;202609;Janela Salvar como;16906;5000;SIM;OK;saiu da URL do site (Salvar como presumido em foco)
+2026-09-29 11:40:57;202609;Definir pasta destino;1875;5000;NAO;OK;A:\setorsistemas\Facil Informatica\_FOLHAPAGAMENTO\ARQUIVOS ESOCIAL\Exportados\092026\CONSULTA EVENTOS
+2026-09-29 11:40:59;202609;Salvar arquivo;1672;5000;NAO;OK;202609_INATIVOS_Consulta Eventos
+2026-09-29 11:41:01;202609;Estado antes de Voltar;1766;5000;NAO;OK;c
+2026-09-29 11:41:02;202609;Localizar: Voltar;1062;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-09-29 11:41:03;202609;Confirmar Voltar (tentativa 1);813;5000;NAO;OK;
+2026-09-29 11:41:03;202609;Aguardar PAGINA1;890;10000;NAO;OK;esperou 875ms
+2026-09-29 11:41:03;202609;Fim ciclo e-Social;16;5000;NAO;OK;duracao_total_ms=56375
+2026-09-29 11:41:56;202609;Limpar caixa Tipo Folha;2157;5000;NAO;OK;
+2026-09-29 11:41:57;202609;Limpar caixa Tipo Folha;953;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-09-29 11:42:01;202609;Inserir Tipo Folha;4359;5000;NAO;OK;qtd=4 valores=2,10,32,33
+2026-09-29 11:42:06;202609;Inicio ciclo e-Social;4500;5000;NAO;OK;datainicio=01/09/2026 datafim=30/09/2026 entidade=PENSIONISTAS
+2026-09-29 11:42:06;202609;Aguardar PAGINA1;297;10000;NAO;OK;esperou 250ms
+2026-09-29 11:42:08;202609;Limpar caixa Conta;2094;5000;NAO;OK;
+2026-09-29 11:42:21;202609;Inserir Conta;12734;5000;SIM;OK;qtd=26 valores=476,545,478,485,398,746,747,722,7849,7852,542,845,7846,7851,7850,851,7851,852,848,541,7845,849,853,484,739,840
+2026-09-29 11:42:22;202609;Localizar: Referência;953;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-09-29 11:42:22;202609;Digitar data inicio;156;5000;NAO;OK;01/09/2026
+2026-09-29 11:42:22;202609;Tab entre campos;125;5000;NAO;OK;qtd=2
+2026-09-29 11:42:22;202609;Digitar data fim;125;5000;NAO;OK;30/09/2026
+2026-09-29 11:42:23;202609;Localizar: Executar;954;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-09-29 11:42:23;202609;Confirmar Executar (tentativa 1);296;5000;NAO;OK;
+2026-09-29 11:42:25;202609;Aguardar PAGINA2;1329;10000;NAO;OK;esperou 1313ms
+2026-09-29 11:42:25;202609;Obter quantidade resultados;281;5000;NAO;OK;qtd=955
+2026-09-29 11:42:26;202609;Confirmar Exportar em PDF;1000;5000;NAO;OK;
+2026-09-29 11:42:27;202609;Seta para baixo 1/10;844;5000;NAO;OK;
+2026-09-29 11:42:27;202609;Seta para baixo 2/10;46;5000;NAO;OK;
+2026-09-29 11:42:27;202609;Seta para baixo 3/10;47;5000;NAO;OK;
+2026-09-29 11:42:27;202609;Seta para baixo 4/10;47;5000;NAO;OK;
+2026-09-29 11:42:27;202609;Seta para baixo 5/10;47;5000;NAO;OK;
+2026-09-29 11:42:27;202609;Seta para baixo 6/10;47;5000;NAO;OK;
+2026-09-29 11:42:27;202609;Seta para baixo 7/10;47;5000;NAO;OK;
+2026-09-29 11:42:27;202609;Seta para baixo 8/10;47;5000;NAO;OK;
+2026-09-29 11:42:27;202609;Seta para baixo 9/10;47;5000;NAO;OK;
+2026-09-29 11:42:27;202609;Seta para baixo 10/10;46;5000;NAO;OK;
+2026-09-29 11:42:27;202609;Selecionar formato CSV;125;5000;NAO;OK;tempo desde Enter que confirmou match ate aqui=1500ms
+2026-09-29 11:42:28;202609;Estado apos Enter final (formato);157;5000;NAO;OK;Exportar para XML
+2026-09-29 11:42:28;202609;Janela Salvar como;218;5000;NAO;OK;saiu da URL do site (Salvar como presumido em foco)
+2026-09-29 11:42:30;202609;Definir pasta destino;1844;5000;NAO;OK;A:\setorsistemas\Facil Informatica\_FOLHAPAGAMENTO\ARQUIVOS ESOCIAL\Exportados\092026\CONSULTA EVENTOS
+2026-09-29 11:43:14;-;Limpar caixa Tipo Folha;2125;5000;NAO;OK;
+2026-09-29 11:43:15;-;Limpar caixa Tipo Folha;953;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-09-29 11:43:20;-;Inserir Tipo Folha;4344;5000;NAO;OK;qtd=4 valores=2,10,32,33
+2026-09-29 11:43:40;202609;Inicio ciclo e-Social;20422;5000;SIM;OK;datainicio=01/09/2026 datafim=30/09/2026 entidade=PENSIONISTAS
+2026-09-29 11:43:40;202609;Aguardar PAGINA1;234;10000;NAO;OK;esperou 218ms
+2026-09-29 11:43:43;202609;Limpar caixa Conta;2125;5000;NAO;OK;
+2026-09-29 11:43:55;202609;Inserir Conta;12563;5000;SIM;OK;qtd=26 valores=476,545,478,485,398,746,747,722,7849,7852,542,845,7846,7851,7850,851,7851,852,848,541,7845,849,853,484,739,840
+2026-09-29 11:43:56;202609;Localizar: Referência;969;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-09-29 11:43:56;202609;Digitar data inicio;125;5000;NAO;OK;01/09/2026
+2026-09-29 11:43:56;202609;Tab entre campos;140;5000;NAO;OK;qtd=2
+2026-09-29 11:43:56;202609;Digitar data fim;125;5000;NAO;OK;30/09/2026
+2026-09-29 11:43:57;202609;Localizar: Executar;969;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-09-29 11:43:58;202609;Confirmar Executar (tentativa 1);297;5000;NAO;OK;
+2026-09-29 11:43:59;202609;Aguardar PAGINA2;1109;10000;NAO;OK;esperou 1094ms
+2026-09-29 11:43:59;202609;Obter quantidade resultados;422;5000;NAO;OK;qtd=955
+2026-09-29 11:44:00;202609;Confirmar Exportar em PDF;1000;5000;NAO;OK;
+2026-09-29 11:44:01;202609;Seta para baixo 1/10;828;5000;NAO;OK;
+2026-09-29 11:44:01;202609;Seta para baixo 2/10;63;5000;NAO;OK;
+2026-09-29 11:44:01;202609;Seta para baixo 3/10;47;5000;NAO;OK;
+2026-09-29 11:44:01;202609;Seta para baixo 4/10;46;5000;NAO;OK;
+2026-09-29 11:44:01;202609;Seta para baixo 5/10;47;5000;NAO;OK;
+2026-09-29 11:44:01;202609;Seta para baixo 6/10;47;5000;NAO;OK;
+2026-09-29 11:44:01;202609;Seta para baixo 7/10;31;5000;NAO;OK;
+2026-09-29 11:44:01;202609;Seta para baixo 8/10;32;5000;NAO;OK;
+2026-09-29 11:44:01;202609;Seta para baixo 9/10;31;5000;NAO;OK;
+2026-09-29 11:44:01;202609;Seta para baixo 10/10;31;5000;NAO;OK;
+2026-09-29 11:44:02;202609;Selecionar formato CSV;110;5000;NAO;OK;tempo desde Enter que confirmou match ate aqui=1422ms
+2026-09-29 11:44:02;202609;Estado apos Enter final (formato);171;5000;NAO;OK;Exportar em PDF | ui-button | Executar | 
+2026-09-29 11:44:06;202609;Janela Salvar como;4157;5000;NAO;OK;saiu da URL do site (Salvar como presumido em foco)
+2026-09-29 11:44:08;202609;Definir pasta destino;1843;5000;NAO;OK;A:\setorsistemas\Facil Informatica\_FOLHAPAGAMENTO\ARQUIVOS ESOCIAL\Exportados\092026\CONSULTA EVENTOS
+2026-09-29 11:44:09;202609;Salvar arquivo;1657;5000;NAO;OK;202609_PENSIONISTAS_Consulta Eventos
+2026-09-29 11:44:11;202609;Estado antes de Voltar;1734;5000;NAO;OK;https://admrhinativos.caxias.rs.gov.br/rhsysweb/secure/XcpExecObjForm.xhtml?com.xcape.codObjeto=Consulta%20Eventos
+2026-09-29 11:44:12;202609;Localizar: Voltar;1063;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-09-29 11:44:13;202609;Confirmar Voltar (tentativa 1);812;5000;NAO;OK;
+2026-09-29 11:44:14;202609;Aguardar PAGINA1;906;10000;NAO;OK;esperou 890ms
+2026-09-29 11:44:14;202609;Fim ciclo e-Social;16;5000;NAO;OK;duracao_total_ms=33750
+2026-09-30 13:44:31;-;Limpar caixa Tipo Folha;2109;5000;NAO;OK;
+2026-09-30 13:44:32;-;Limpar caixa Tipo Folha;953;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-09-30 13:44:36;-;Inserir Tipo Folha;4672;5000;NAO;OK;qtd=5 valores=1,12,16,22,4
+2026-09-30 13:44:49;-;Limpar caixa Tipo Folha;2093;5000;NAO;OK;
+2026-09-30 13:44:50;-;Limpar caixa Tipo Folha;953;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-09-30 13:44:55;-;Inserir Tipo Folha;4704;5000;NAO;OK;qtd=5 valores=1,12,16,22,4
+2026-09-30 13:45:13;202609;Inicio ciclo e-Social;17984;5000;SIM;OK;datainicio=01/09/2026 datafim=30/09/2026 entidade=PREFEITURA
+2026-09-30 13:45:13;202609;Aguardar PAGINA1;234;10000;NAO;OK;esperou 234ms
+2026-09-30 13:45:15;202609;Limpar caixa Conta;2094;5000;NAO;OK;
+2026-09-30 13:45:31;202609;Inserir Conta;16172;5000;SIM;OK;qtd=37 valores=476,545,478,485,398,746,747,722,542,845,873,546,547,851,543,852,848,541,872,849,838,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-09-30 13:45:32;202609;Localizar: Referência;969;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-09-30 13:45:32;202609;Digitar data inicio;125;5000;NAO;OK;01/09/2026
+2026-09-30 13:45:33;202609;Tab entre campos;125;5000;NAO;OK;qtd=2
+2026-09-30 13:45:33;202609;Digitar data fim;125;5000;NAO;OK;30/09/2026
+2026-09-30 13:45:34;202609;Localizar: Executar;953;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-09-30 13:45:34;202609;Confirmar Executar (tentativa 1);297;5000;NAO;OK;
+2026-09-30 13:45:40;202609;Aguardar PAGINA2;5953;10000;NAO;ERRO;TIMEOUT apos 1094ms, ultima pagina detectada='PAGINA1'
+2026-09-30 13:45:40;202609;Executar sem efeito ainda;15;5000;NAO;AVISO;tentativa=1 pagina='PAGINA1'
+2026-09-30 13:45:40;202609;Confirmar Executar (tentativa 2);16;5000;NAO;OK;
+2026-09-30 13:45:41;202609;Aguardar PAGINA2;891;10000;NAO;ERRO;TIMEOUT apos 875ms, ultima pagina detectada='PAGINA1'
+2026-09-30 13:45:41;202609;Executar sem efeito ainda;15;5000;NAO;AVISO;tentativa=2 pagina='PAGINA1'
+2026-09-30 14:26:59;-;Limpar caixa Tipo Folha;2125;5000;NAO;OK;
+2026-09-30 14:27:00;-;Limpar caixa Tipo Folha;954;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-09-30 14:27:04;-;Inserir Tipo Folha;4687;5000;NAO;OK;qtd=5 valores=1,12,16,22,4
+2026-09-30 14:27:17;202609;Inicio ciclo e-Social;12344;5000;SIM;OK;datainicio=01/09/2026 datafim=30/09/2026 entidade=PREFEITURA
+2026-09-30 14:27:17;202609;Aguardar PAGINA1;250;10000;NAO;OK;esperou 235ms
+2026-09-30 14:27:19;202609;Limpar caixa Conta;2109;5000;NAO;OK;
+2026-09-30 14:27:35;202609;Inserir Conta;16141;5000;SIM;OK;qtd=37 valores=476,545,478,485,398,746,747,722,542,845,873,546,547,851,543,852,848,541,872,849,838,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-09-30 14:27:36;202609;Localizar: Referência;953;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-09-30 14:27:36;202609;Digitar data inicio;125;5000;NAO;OK;01/09/2026
+2026-09-30 14:27:36;202609;Tab entre campos;125;5000;NAO;OK;qtd=2
+2026-09-30 14:27:37;202609;Digitar data fim;125;5000;NAO;OK;30/09/2026
+2026-09-30 14:27:38;202609;Localizar: Executar;953;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-09-30 14:27:38;202609;Confirmar Executar (tentativa 1);297;5000;NAO;OK;
+2026-09-30 14:27:43;202609;Aguardar PAGINA2;4797;10000;NAO;OK;esperou 4766ms
+2026-09-30 14:27:43;202609;Obter quantidade resultados;281;5000;NAO;OK;qtd=8790
+2026-09-30 14:27:44;202609;Confirmar Exportar em PDF;1000;5000;NAO;OK;
+2026-09-30 14:27:45;202609;Seta para baixo 1/10;828;5000;NAO;OK;
+2026-09-30 14:27:45;202609;Seta para baixo 2/10;47;5000;NAO;OK;
+2026-09-30 14:27:45;202609;Seta para baixo 3/10;47;5000;NAO;OK;
+2026-09-30 14:27:45;202609;Seta para baixo 4/10;47;5000;NAO;OK;
+2026-09-30 14:27:45;202609;Seta para baixo 5/10;47;5000;NAO;OK;
+2026-09-30 14:27:45;202609;Seta para baixo 6/10;47;5000;NAO;OK;
+2026-09-30 14:27:45;202609;Seta para baixo 7/10;46;5000;NAO;OK;
+2026-09-30 14:27:45;202609;Seta para baixo 8/10;47;5000;NAO;OK;
+2026-09-30 14:27:45;202609;Seta para baixo 9/10;47;5000;NAO;OK;
+2026-09-30 14:27:45;202609;Seta para baixo 10/10;47;5000;NAO;OK;
+2026-09-30 14:27:45;202609;Selecionar formato CSV;125;5000;NAO;OK;tempo desde Enter que confirmou match ate aqui=1484ms
+2026-09-30 14:27:45;202609;Estado apos Enter final (formato);156;5000;NAO;OK;Exportar para XML
+2026-09-30 14:28:05;202609;Janela Salvar como;19610;5000;SIM;OK;saiu da URL do site (Salvar como presumido em foco)
+2026-09-30 14:28:07;202609;Definir pasta destino;1859;5000;NAO;OK;A:\setorsistemas\Facil Informatica\_FOLHAPAGAMENTO\ARQUIVOS ESOCIAL\Exportados\092026\CONSULTA EVENTOS
+2026-09-30 14:28:09;202609;Salvar arquivo;1656;5000;NAO;OK;202609_PREFEITURA_Consulta Eventos
+2026-09-30 14:28:10;202609;Estado antes de Voltar;1735;5000;NAO;OK;https://admrh.caxias.rs.gov.br/rhsysweb/secure/XcpExecObjForm.xhtml?com.xcape.codObjeto=Consulta%20Eventos
+2026-09-30 14:28:11;202609;Localizar: Voltar;1062;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-09-30 14:28:12;202609;Confirmar Voltar (tentativa 1);813;5000;NAO;OK;
+2026-09-30 14:28:12;202609;Aguardar PAGINA1;343;10000;NAO;OK;esperou 328ms
+2026-09-30 14:28:12;202609;Fim ciclo e-Social;0;5000;NAO;OK;duracao_total_ms=55765
+2026-10-26 11:39:30;-;Limpar caixa Tipo Folha;2110;5000;NAO;OK;
+2026-10-26 11:39:31;-;Limpar caixa Tipo Folha;953;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-10-26 11:39:35;-;Inserir Tipo Folha;4687;5000;NAO;OK;qtd=5 valores=1,12,16,22,4
+2026-10-26 11:39:48;202610;Inicio ciclo e-Social;12422;5000;SIM;OK;datainicio=01/10/2026 datafim=31/10/2026 entidade=PREFEITURA
+2026-10-26 11:39:48;202610;Aguardar PAGINA1;250;10000;NAO;OK;esperou 234ms
+2026-10-26 11:39:50;202610;Limpar caixa Conta;2094;5000;NAO;OK;
+2026-10-26 11:39:51;202610;Limpar caixa Conta;937;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-10-26 11:40:38;-;Limpar caixa Tipo Folha;2094;5000;NAO;OK;
+2026-10-26 11:40:39;-;Limpar caixa Tipo Folha;953;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-10-26 11:40:44;-;Inserir Tipo Folha;4703;5000;NAO;OK;qtd=5 valores=1,12,16,22,4
+2026-10-26 11:40:55;202610;Inicio ciclo e-Social;11375;5000;SIM;OK;datainicio=01/10/2026 datafim=31/10/2026 entidade=PREFEITURA
+2026-10-26 11:40:55;202610;Aguardar PAGINA1;234;10000;NAO;OK;esperou 218ms
+2026-10-26 11:40:57;202610;Limpar caixa Conta;2110;5000;NAO;OK;
+2026-10-26 11:41:14;202610;Inserir Conta: valor(es) aparentemente faltando (checagem sujeita a falso alarme);16125;5000;SIM;AVISO;faltando=543 valores_inseridos=476,545,478,485,398,746,747,722,542,845,873,546,547,851,543,852,848,541,872,849,838,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-10-26 11:41:15;202610;Localizar: Referência;1031;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-10-26 11:41:15;202610;Digitar data inicio;141;5000;NAO;OK;01/10/2026
+2026-10-26 11:41:15;202610;Tab entre campos;125;5000;NAO;OK;qtd=2
+2026-10-26 11:41:15;202610;Digitar data fim;125;5000;NAO;OK;31/10/2026
+2026-10-26 11:41:16;202610;Localizar: Executar;984;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-10-26 11:41:16;202610;Confirmar Executar (tentativa 1);281;5000;NAO;OK;
+2026-10-26 11:41:17;202610;Aguardar PAGINA2;1047;10000;NAO;ERRO;TIMEOUT apos 1031ms, ultima pagina detectada='PAGINA1'
+2026-10-26 11:41:17;202610;Executar sem efeito ainda;0;5000;NAO;AVISO;tentativa=1 pagina='PAGINA1'
+2026-10-26 11:41:17;202610;Confirmar Executar (tentativa 2);16;5000;NAO;OK;
+2026-10-26 11:41:18;202610;Aguardar PAGINA2;906;10000;NAO;ERRO;TIMEOUT apos 891ms, ultima pagina detectada='PAGINA1'
+2026-10-26 11:41:18;202610;Executar sem efeito ainda;16;5000;NAO;AVISO;tentativa=2 pagina='PAGINA1'
+2026-10-26 11:41:26;202610;Aguardar PAGINA2;8218;10000;NAO;ERRO;TIMEOUT apos 8218ms, ultima pagina detectada='PAGINA1'
+2026-10-26 11:41:27;202610;Pos-Executar;407;5000;NAO;ABORTADO;esperava PAGINA2, detectado='PAGINA1'
+2026-10-26 11:41:28;202610;Estado antes de Voltar;953;5000;NAO;OK; | MUNICIPIO DE CAXIAS DO SUL | [Calculadoras] ipam_pslorenzzetti | Sair | Tabelas | Lançamentos | Cálculos | Relatórios | Controle de Frequência | Cursos e Treinamentos | Geração de Arquivos | Importação Dados IPAM | Portal do Servidor (Interno) | Controle de Acessos | Consultas Dinâmicas |  |     Consulta Servidores |     Consulta de Eventos |     Consulta Servidores (nativo ADMRH) |  | Consulta de Eventos | [Adicionar/Remover Favoritos] 	 | 	[Ejetar Janela] | Selecione Configuração | Filtros Gerais | Tipo Folha: | 	 | BuscarLimparEditar Tabela | 	 | 	Tipo Folha | 	Tipo Folha | 	1 - MENSAL | 	12 - Rescisão Complementar | 	16 - Suplementar | 	22 - Complementar - Folhas avulsas | 	4 - RESCISÃO DE CONTRATO | 	ui-button | Referência: | 	 | ui-button | até | ui-button | Data de Pagamento: | 	 | ui-button | até | ui-button | Disponibilidade Folha:* | 	 | Apenas folhas que compõem pagamento | Todos os tipos de folha | O campo Disponibilidade Folha é obrigatório | Tipo da Conta: | 	 | BuscarLimparEditar Tabela | 	 | 	Tipo da Conta | 	Tipo da Conta | 	Base | 	Consignado | 	Desconto | 	Provento | 	Resultado | 	ui-button | Tipo Lançamento Conta: | 	 | BuscarLimparEditar Tabela | 	 | 	Tipo Lançamento Conta | 	Tipo Lançamento Conta | 	Calculado | 	Diferenças retroativas | 	Fixo | 	Importado | 	Lançamentos | 	Outras folhas | 	Ponto | 	Relógio | 	ui-button | Conta: | 	 | BuscarLimparEditar Tabela | 	 | 	Conta | 	Conta | 	476 - Dif. Crédito IPAM Saúde | 	545 - Dif. Crédito IPAM Saúde não dedutível | 	478 - Devolução IPAM Saúde - (HISTÓRICO) | 	485 - Reembolso IPAM | 	398 - Reembolso Lei 3673 - Art.181 / AT | 	746 - Reembolso IPAM não dedutível | 	747 - Reembolso Lei 3673 - Art 181/19 não dedutível | 	722 - IPAM - Empréstimos | 	542 - IPAM - Empréstimos não dedutível | 	845 - IPAM Saúde | 	873 - Mensalidade Ipam Saúde - Desconto Dívida Ativa | 	546 - Mensalidade Ipam Saúde não dedutível - Desconto Dívida Ativa | 	547 - Ipam Reposição Não dedutível - Desconto Dívida Ativa | 	851 - ...(truncado, total=3520 chars)
+2026-10-26 11:41:29;202610;Localizar: Voltar;1062;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-10-26 11:41:30;202610;Confirmar Voltar (tentativa 1);813;5000;NAO;OK;
+2026-10-26 11:41:30;202610;Aguardar PAGINA1;265;10000;NAO;OK;esperou 218ms
+2026-10-26 11:41:30;202610;Fim ciclo e-Social;16;5000;NAO;OK;duracao_total_ms=34875
+2026-10-26 11:42:12;202610;Inicio ciclo e-Social;42344;5000;SIM;OK;datainicio=01/10/2026 datafim=31/10/2026 entidade=PREFEITURA
+2026-10-26 11:42:13;202610;Aguardar PAGINA1;234;10000;NAO;OK;esperou 219ms
+2026-10-26 11:42:57;-;Limpar caixa Tipo Folha;2250;5000;NAO;OK;
+2026-10-26 11:42:58;-;Limpar caixa Tipo Folha;953;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-10-26 11:43:03;-;Inserir Tipo Folha;4688;5000;NAO;OK;qtd=5 valores=1,12,16,22,4
+2026-10-26 11:43:18;202610;Inicio ciclo e-Social;15062;5000;SIM;OK;datainicio=01/10/2026 datafim=31/10/2026 entidade=PREFEITURA
+2026-10-26 11:43:18;202610;Aguardar PAGINA1;219;10000;NAO;OK;esperou 219ms
+2026-10-26 11:43:20;202610;Limpar caixa Conta;2109;5000;NAO;OK;
+2026-10-26 11:43:36;202610;Inserir Conta;16219;5000;SIM;OK;qtd=37 valores=476,545,478,485,398,746,747,722,542,845,873,546,547,851,543,852,848,541,872,849,838,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-10-26 11:43:37;202610;Localizar: Referência;969;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-10-26 11:43:37;202610;Digitar data inicio;125;5000;NAO;OK;01/10/2026
+2026-10-26 11:43:38;202610;Tab entre campos;125;5000;NAO;OK;qtd=2
+2026-10-26 11:43:38;202610;Digitar data fim;125;5000;NAO;OK;31/10/2026
+2026-10-26 11:43:39;202610;Localizar: Executar;968;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-10-26 11:43:39;202610;Confirmar Executar (tentativa 1);297;5000;NAO;OK;
+2026-10-26 11:43:49;202610;Aguardar PAGINA2;10063;10000;SIM;OK;esperou 10047ms
+2026-10-26 11:43:49;202610;Obter quantidade resultados;344;5000;NAO;OK;qtd=9058
+2026-10-26 11:43:50;202610;Confirmar Exportar em PDF;984;5000;NAO;OK;
+2026-10-26 11:43:51;202610;Seta para baixo 1/10;844;5000;NAO;OK;
+2026-10-26 11:43:51;202610;Seta para baixo 2/10;62;5000;NAO;OK;
+2026-10-26 11:43:51;202610;Seta para baixo 3/10;47;5000;NAO;OK;
+2026-10-26 11:43:51;202610;Seta para baixo 4/10;47;5000;NAO;OK;
+2026-10-26 11:43:51;202610;Seta para baixo 5/10;47;5000;NAO;OK;
+2026-10-26 11:43:51;202610;Seta para baixo 6/10;47;5000;NAO;OK;
+2026-10-26 11:43:51;202610;Seta para baixo 7/10;31;5000;NAO;OK;
+2026-10-26 11:43:51;202610;Seta para baixo 8/10;31;5000;NAO;OK;
+2026-10-26 11:43:51;202610;Seta para baixo 9/10;31;5000;NAO;OK;
+2026-10-26 11:43:52;202610;Seta para baixo 10/10;47;5000;NAO;OK;
+2026-10-26 11:43:52;202610;Selecionar formato CSV;125;5000;NAO;OK;tempo desde Enter que confirmou match ate aqui=1468ms
+2026-10-26 11:43:52;202610;Estado apos Enter final (formato);157;5000;NAO;OK;Exportar em PDF | ui-button | Executar | 
+2026-10-26 11:44:11;202610;Janela Salvar como;19343;5000;SIM;OK;saiu da URL do site (Salvar como presumido em foco)
+2026-10-26 11:44:13;202610;Definir pasta destino;1844;5000;NAO;OK;A:\setorsistemas\Facil Informatica\_FOLHAPAGAMENTO\ARQUIVOS ESOCIAL\Exportados\102026\CONSULTA EVENTOS
+2026-10-26 11:44:15;202610;Salvar arquivo;1656;5000;NAO;OK;202610_PREFEITURA_Consulta Eventos
+2026-10-26 11:44:16;202610;Estado antes de Voltar;1750;5000;NAO;OK;https://admrh.caxias.rs.gov.br/rhsysweb/secure/XcpExecObjForm.xhtml?com.xcape.codObjeto=Consulta%20Eventos
+2026-10-26 11:44:17;202610;Localizar: Voltar;1078;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-10-26 11:44:18;202610;Confirmar Voltar (tentativa 1);813;5000;NAO;OK;
+2026-10-26 11:44:19;202610;Aguardar PAGINA1;922;10000;NAO;OK;esperou 891ms
+2026-10-26 11:44:19;202610;Fim ciclo e-Social;15;5000;NAO;OK;duracao_total_ms=61484
+2026-10-26 11:47:11;202610;Limpar caixa Tipo Folha;2125;5000;NAO;OK;
+2026-10-26 11:47:12;202610;Limpar caixa Tipo Folha;953;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-10-26 11:47:16;202610;Inserir Tipo Folha;4672;5000;NAO;OK;qtd=5 valores=1,12,16,22,4
+2026-10-26 11:47:29;202610;Limpar caixa Tipo Folha;2171;5000;NAO;OK;
+2026-10-26 11:47:30;202610;Limpar caixa Tipo Folha;954;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-10-26 11:47:34;202610;Inserir Tipo Folha;4703;5000;NAO;OK;qtd=5 valores=1,12,16,22,4
+2026-10-26 11:48:25;202610;Inicio ciclo e-Social;50859;5000;SIM;OK;datainicio=01/10/2026 datafim=31/10/2026 entidade=IPAM
+2026-10-26 11:48:25;202610;Aguardar PAGINA1;234;10000;NAO;OK;esperou 218ms
+2026-10-26 11:48:28;202610;Limpar caixa Conta;2094;5000;NAO;OK;
+2026-10-26 11:48:43;202610;Inserir Conta: valor(es) aparentemente faltando (checagem sujeita a falso alarme);15516;5000;SIM;AVISO;faltando=853,484,8405 valores_inseridos=476,544,478,485,398,746,747,722,542,845,873,546,851,543,852,848,541,872,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-10-26 11:48:44;202610;Localizar: Referência;1015;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-10-26 11:48:44;202610;Digitar data inicio;125;5000;NAO;OK;01/10/2026
+2026-10-26 11:48:44;202610;Tab entre campos;141;5000;NAO;OK;qtd=2
+2026-10-26 11:48:44;202610;Digitar data fim;109;5000;NAO;OK;31/10/2026
+2026-10-26 11:48:45;202610;Localizar: Executar;969;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-10-26 11:48:46;202610;Confirmar Executar (tentativa 1);297;5000;NAO;OK;
+2026-10-26 11:48:49;202610;Aguardar PAGINA2;3703;10000;NAO;OK;esperou 3687ms
+2026-10-26 11:48:50;202610;Obter quantidade resultados;281;5000;NAO;OK;qtd=77
+2026-10-26 11:48:51;202610;Confirmar Exportar em PDF;1016;5000;NAO;OK;
+2026-10-26 11:48:52;202610;Seta para baixo 1/10;828;5000;NAO;OK;
+2026-10-26 11:48:52;202610;Seta para baixo 2/10;47;5000;NAO;OK;
+2026-10-26 11:48:52;202610;Seta para baixo 3/10;47;5000;NAO;OK;
+2026-10-26 11:48:52;202610;Seta para baixo 4/10;62;5000;NAO;OK;
+2026-10-26 11:48:52;202610;Seta para baixo 5/10;32;5000;NAO;OK;
+2026-10-26 11:48:52;202610;Seta para baixo 6/10;31;5000;NAO;OK;
+2026-10-26 11:48:52;202610;Seta para baixo 7/10;31;5000;NAO;OK;
+2026-10-26 11:48:52;202610;Seta para baixo 8/10;47;5000;NAO;OK;
+2026-10-26 11:48:52;202610;Seta para baixo 9/10;47;5000;NAO;OK;
+2026-10-26 11:48:52;202610;Seta para baixo 10/10;47;5000;NAO;OK;
+2026-10-26 11:48:52;202610;Selecionar formato CSV;125;5000;NAO;OK;tempo desde Enter que confirmou match ate aqui=1453ms
+2026-10-26 11:48:52;202610;Estado apos Enter final (formato);156;5000;NAO;OK; | Instituto de Previdência e Assistência Municipal - IPAM | [Calculadoras] anderson.ramires | Sair | Lançamentos | Geração de Arquivos | Consultas Dinâmicas |  |     Consulta de Eventos |  | Consulta de Eventos | [Adicionar/Remover Favoritos] 	 | 	[Ejetar Janela] | Selecione Configuração | Filtros Gerais | Tipo Folha: | 	 | BuscarLimparEditar Tabela | 	 | 	Tipo Folha | 	Tipo Folha | 	1 - MENSAL | 	12 - Rescisão Complementar | 	16 - Suplementar | 	22 - Complementar - Folhas avulsas | 	4 - RESCISÃO DE CONTRATO | 	ui-button | Referência: | 	 | ui-button | até | ui-button | Data de Pagamento: | 	 | ui-button | até | ui-button | Tipo da Conta: | 	 | BuscarLimparEditar Tabela | 	 | 	Tipo da Conta | 	Tipo da Conta | 	Base | 	Consignado | 	Desconto | 	Provento | 	Resultado | 	ui-button | Tipo Lançamento Conta: | 	 | BuscarLimparEditar Tabela | 	 | 	Tipo Lançamento Conta | 	Tipo Lançamento Conta | 	Calculado | 	Diferenças retroativas | 	Fixo | 	Importado | 	Lançamentos | 	Outras folhas | 	Ponto | 	Relógio | 	ui-button | Conta: | 	 | BuscarLimparEditar Tabela | 	 | 	Conta | 	Conta | 	476 - Dif. Crédito IPAM Saúde | 	544 - Dif. Crédito IPAM Saúde não dedutível | 	478 - Devolução IPAM Saúde | 	485 - Reembolso IPAM | 	398 - Reembolso Lei 3673 - Artigo 181 | 	746 - Reembolso IPAM não dedutível | 	747 - Reembolso Lei 3673 - Art 181/19 não dedutível | 	722 - Emprestimo IPAM | 	542 - IPAM - Empréstimos não dedutível | 	845 - IPAM Saude - Mensal | 	873 - Mensalidade Ipam Saúde - Desconto Dívida ativa | 	546 - Ipam Reposição não dedutível - Desconto Dívida Ativa | 	851 - Dif. Deb. IPAM Saúde | 	543 - Dif. Deb. IPAM Saúde não dedutivel | 	852 - Dependente Optativo Saúde | 	848 - Reposicao IPAM | 	541 - Reposicao IPAM não dedutível | 	872 - Ipam Reposição - Desconto Dívida Ativa | 	849 - Saldo IPAM Reposição | 	739 - Dev. IPAM - Reposição não dedutível | 	840 - Taxa de 2° via - Carteira do IPAM-SAÚDE | 	8401 - IPAM Saúde - Férias Jan. | 	8402 - IPAM Saúde - Férias Fev. | 	8403 - IPAM Saúde - Férias Mar. | 	8404 - IPAM Saúde - Férias Abr. | 	8406 - IPAM Saúde - Férias Jun. | 	8407 - IPAM Saúde - Férias Jul. | 	8408 - IPAM Saúde - Férias Ago. | 	8409 - IPAM Saúde - Férias Set. | 	8410 - IPAM Saúde - Férias Out. | 	8411 - IPAM Saúde - Férias Nov. | 	8412 - IPAM Saúde - Férias Dez. | 	ui-button | Filtros | Matrícula: | 	 | BuscarLimparEditar Tabela | 	 | Secretaria: | 	 | BuscarLimparEditar Tabela | 	 | Unidade: | 	 | BuscarLimparEditar Tabela | 	 | Setor: | 	 | BuscarLimparEditar Tabela | 	 | Cargo: | 	 | BuscarLimparEditar Tabela | 	 | Função: | 	 | BuscarLimparEditar Tabela | 	 | Situação: | 	 | BuscarLimparEditar Tabela | 	 | Centro de Custo: | 	 | BuscarLimparEditar Tabela | 	 | Vínculo: | 	 | BuscarLimparEditar Tabela | 	 | Lei Emergencial: | 	 | BuscarLimparEditar Tabela | 	 | Relogio: | 	 | BuscarLimparEditar Tabela | Admissão: | 	 | ui-button | até | ui-button | Salvar Filtros | ExecutarLimpar | 
+2026-10-26 11:51:02;202610;Inicio ciclo e-Social;0;5000;NAO;OK;datainicio=01/10/2026 datafim=31/10/2026 entidade=IPAM
+2026-10-26 11:51:02;202610;Aguardar PAGINA1;250;10000;NAO;OK;esperou 234ms
+2026-10-26 11:51:04;202610;Limpar caixa Conta;2094;5000;NAO;OK;
+2026-10-26 11:52:08;-;Limpar caixa Tipo Folha;2109;5000;NAO;OK;
+2026-10-26 11:52:09;-;Limpar caixa Tipo Folha;985;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-10-26 11:52:14;-;Inserir Tipo Folha;4687;5000;NAO;OK;qtd=5 valores=1,12,16,22,4
+2026-10-26 11:53:37;202610;Inicio ciclo e-Social;82656;5000;SIM;OK;datainicio=01/10/2026 datafim=31/10/2026 entidade=IPAM
+2026-10-26 11:53:37;202610;Aguardar PAGINA1;250;10000;NAO;OK;esperou 234ms
+2026-10-26 11:53:39;202610;Limpar caixa Conta;2078;5000;NAO;OK;
+2026-10-26 11:53:55;202610;Inserir Conta: valor(es) aparentemente faltando (checagem sujeita a falso alarme);15500;5000;SIM;AVISO;faltando=544,485,873,8403,8406,8409,8410,8411,8412 valores_inseridos=476,544,478,485,398,746,747,722,542,845,873,546,851,543,852,848,541,872,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-10-26 11:53:56;202610;Localizar: Referência;1000;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-10-26 11:53:56;202610;Digitar data inicio;125;5000;NAO;OK;01/10/2026
+2026-10-26 11:53:56;202610;Tab entre campos;141;5000;NAO;OK;qtd=2
+2026-10-26 11:53:56;202610;Digitar data fim;141;5000;NAO;OK;31/10/2026
+2026-10-26 11:53:57;202610;Localizar: Executar;953;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-10-26 11:53:57;202610;Confirmar Executar (tentativa 1);297;5000;NAO;OK;
+2026-10-26 11:54:00;202610;Aguardar PAGINA2;2422;10000;NAO;OK;esperou 2422ms
+2026-10-26 11:54:00;202610;Obter quantidade resultados;390;5000;NAO;OK;qtd=67
+2026-10-26 11:54:01;202610;Confirmar Exportar em PDF;1000;5000;NAO;OK;
+2026-10-26 11:54:04;202610;Seta para baixo 1/10;3219;5000;NAO;OK;
+2026-10-26 11:54:04;202610;Seta para baixo 2/10;31;5000;NAO;OK;
+2026-10-26 11:54:05;202610;Seta para baixo 3/10;360;5000;NAO;OK;
+2026-10-26 11:54:05;202610;Seta para baixo 4/10;78;5000;NAO;OK;
+2026-10-26 11:54:05;202610;Seta para baixo 5/10;62;5000;NAO;OK;
+2026-10-26 11:54:05;202610;Seta para baixo 6/10;47;5000;NAO;OK;
+2026-10-26 11:54:05;202610;Seta para baixo 7/10;109;5000;NAO;OK;
+2026-10-26 11:54:05;202610;Seta para baixo 8/10;172;5000;NAO;OK;
+2026-10-26 11:54:05;202610;Seta para baixo 9/10;94;5000;NAO;OK;
+2026-10-26 11:54:05;202610;Seta para baixo 10/10;47;5000;NAO;OK;
+2026-10-26 11:54:05;202610;Selecionar formato CSV;125;5000;NAO;OK;tempo desde Enter que confirmou match ate aqui=4453ms
+2026-10-26 11:54:06;202610;Estado apos Enter final (formato);266;5000;NAO;OK;Exportar em PDF | ui-button | Executar | 
+2026-10-26 11:54:06;202610;Janela Salvar como;218;5000;NAO;OK;saiu da URL do site (Salvar como presumido em foco)
+2026-10-26 12:18:19;-;Limpar caixa Tipo Folha;2140;5000;NAO;OK;
+2026-10-26 12:18:20;-;Limpar caixa Tipo Folha;985;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-10-26 12:18:24;-;Inserir Tipo Folha;4687;5000;NAO;OK;qtd=5 valores=1,12,16,22,4
+2026-10-26 12:18:27;202610;Inicio ciclo e-Social;2078;5000;NAO;OK;datainicio=01/10/2026 datafim=31/10/2026 entidade=IPAM
+2026-10-26 12:18:27;202610;Aguardar PAGINA1;219;10000;NAO;OK;esperou 219ms
+2026-10-26 12:18:29;202610;Limpar caixa Conta;2078;5000;NAO;OK;
+2026-10-26 12:18:44;202610;Inserir Conta;15516;5000;SIM;OK;qtd=35 valores=476,544,478,485,398,746,747,722,542,845,873,546,851,543,852,848,541,872,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-10-26 12:18:45;202610;Localizar: Referência;1000;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-10-26 12:18:55;202610;Digitar data inicio;9328;5000;SIM;OK;01/10/2026
+2026-10-26 12:18:55;202610;Tab entre campos;219;5000;NAO;OK;qtd=2
+2026-10-26 12:18:55;202610;Digitar data fim;140;5000;NAO;OK;31/10/2026
+2026-10-26 12:18:56;202610;Localizar: Executar;969;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-10-26 12:18:56;202610;Confirmar Executar (tentativa 1);281;5000;NAO;OK;
+2026-10-26 12:18:59;202610;Aguardar PAGINA2;2219;10000;NAO;OK;esperou 2203ms
+2026-10-26 12:18:59;202610;Obter quantidade resultados;531;5000;NAO;OK;qtd=77
+2026-10-26 12:19:00;202610;Confirmar Exportar em PDF;1000;5000;NAO;OK;
+2026-10-26 12:19:01;202610;Seta para baixo 1/10;844;5000;NAO;OK;
+2026-10-26 12:19:01;202610;Seta para baixo 2/10;47;5000;NAO;OK;
+2026-10-26 12:19:01;202610;Seta para baixo 3/10;47;5000;NAO;OK;
+2026-10-26 12:19:01;202610;Seta para baixo 4/10;47;5000;NAO;OK;
+2026-10-26 12:19:01;202610;Seta para baixo 5/10;46;5000;NAO;OK;
+2026-10-26 12:19:01;202610;Seta para baixo 6/10;47;5000;NAO;OK;
+2026-10-26 12:19:01;202610;Seta para baixo 7/10;32;5000;NAO;OK;
+2026-10-26 12:19:01;202610;Seta para baixo 8/10;31;5000;NAO;OK;
+2026-10-26 12:19:01;202610;Seta para baixo 9/10;31;5000;NAO;OK;
+2026-10-26 12:19:01;202610;Seta para baixo 10/10;31;5000;NAO;OK;
+2026-10-26 12:19:01;202610;Selecionar formato CSV;110;5000;NAO;OK;tempo desde Enter que confirmou match ate aqui=1422ms
+2026-10-26 12:19:02;202610;Estado apos Enter final (formato);156;5000;NAO;OK;Exportar para XML
+2026-10-26 12:19:09;202610;Janela Salvar como;7641;5000;SIM;OK;saiu da URL do site (Salvar como presumido em foco)
+2026-10-26 12:19:11;202610;Definir pasta destino;1843;5000;NAO;OK;A:\setorsistemas\Facil Informatica\_FOLHAPAGAMENTO\ARQUIVOS ESOCIAL\Exportados\102026\CONSULTA EVENTOS
+2026-10-26 12:19:13;202610;Salvar arquivo;1782;5000;NAO;OK;202610_IPAM_Consulta Eventos
+2026-10-26 12:19:15;202610;Estado antes de Voltar;1750;5000;NAO;OK;https://admrhipam.caxias.rs.gov.br/rhsysweb/secure/XcpExecObjForm.xhtml?com.xcape.codObjeto=Consulta%20Eventos
+2026-10-26 12:19:16;202610;Localizar: Voltar;1046;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-10-26 12:19:16;202610;Confirmar Voltar (tentativa 1);813;5000;NAO;OK;
+2026-10-26 12:19:17;202610;Aguardar PAGINA1;906;10000;NAO;OK;esperou 890ms
+2026-10-26 12:19:17;202610;Fim ciclo e-Social;16;5000;NAO;OK;duracao_total_ms=50766
+2026-10-26 12:20:21;202610;Limpar caixa Tipo Folha;2125;5000;NAO;OK;
+2026-10-26 12:20:22;202610;Limpar caixa Tipo Folha;953;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-10-26 12:20:27;202610;Inserir Tipo Folha;4719;5000;NAO;OK;qtd=5 valores=1,12,16,22,4
+2026-10-26 12:21:01;202610;Inicio ciclo e-Social;33562;5000;SIM;OK;datainicio=01/10/2026 datafim=31/10/2026 entidade=CAMARA
+2026-10-26 12:21:01;202610;Aguardar PAGINA1;219;10000;NAO;OK;esperou 219ms
+2026-10-26 12:21:03;202610;Limpar caixa Conta;2094;5000;NAO;OK;
+2026-10-26 12:21:18;202610;Inserir Conta;14500;5000;SIM;OK;qtd=32 valores=476,545,478,485,398,746,747,722,542,845,851,543,852,848,541,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-10-26 12:21:18;202610;Localizar: Referência;968;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-10-26 12:21:19;202610;Digitar data inicio;110;5000;NAO;OK;01/10/2026
+2026-10-26 12:21:19;202610;Tab entre campos;125;5000;NAO;OK;qtd=2
+2026-10-26 12:21:19;202610;Digitar data fim;125;5000;NAO;OK;31/10/2026
+2026-10-26 12:21:20;202610;Localizar: Executar;953;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-10-26 12:21:20;202610;Confirmar Executar (tentativa 1);281;5000;NAO;OK;
+2026-10-26 12:21:22;202610;Aguardar PAGINA2;2016;10000;NAO;OK;esperou 2000ms
+2026-10-26 12:21:22;202610;Obter quantidade resultados;281;5000;NAO;OK;qtd=44
+2026-10-26 12:21:23;202610;Confirmar Exportar em PDF;1016;5000;NAO;OK;
+2026-10-26 12:21:24;202610;Seta para baixo 1/10;843;5000;NAO;OK;
+2026-10-26 12:21:24;202610;Seta para baixo 2/10;94;5000;NAO;OK;
+2026-10-26 12:21:24;202610;Seta para baixo 3/10;47;5000;NAO;OK;
+2026-10-26 12:21:24;202610;Seta para baixo 4/10;47;5000;NAO;OK;
+2026-10-26 12:21:24;202610;Seta para baixo 5/10;31;5000;NAO;OK;
+2026-10-26 12:21:24;202610;Seta para baixo 6/10;47;5000;NAO;OK;
+2026-10-26 12:21:25;202610;Seta para baixo 7/10;63;5000;NAO;OK;
+2026-10-26 12:21:25;202610;Seta para baixo 8/10;46;5000;NAO;OK;
+2026-10-26 12:21:25;202610;Seta para baixo 9/10;47;5000;NAO;OK;
+2026-10-26 12:21:25;202610;Seta para baixo 10/10;47;5000;NAO;OK;
+2026-10-26 12:21:25;202610;Selecionar formato CSV;125;5000;NAO;OK;tempo desde Enter que confirmou match ate aqui=1547ms
+2026-10-26 12:21:25;202610;Estado apos Enter final (formato);141;5000;NAO;OK;Exportar para XML
+2026-10-26 12:21:31;202610;Janela Salvar como;6078;5000;SIM;OK;saiu da URL do site (Salvar como presumido em foco)
+2026-10-26 12:21:33;202610;Definir pasta destino;1875;5000;NAO;OK;A:\setorsistemas\Facil Informatica\_FOLHAPAGAMENTO\ARQUIVOS ESOCIAL\Exportados\102026\CONSULTA EVENTOS
+2026-10-26 12:21:35;202610;Salvar arquivo;1656;5000;NAO;OK;202610_CAMARA_Consulta Eventos
+2026-10-26 12:21:36;202610;Estado antes de Voltar;1766;5000;NAO;OK;https://admrhcamara.caxias.rs.gov.br/rhsysweb/secure/XcpExecObjForm.xhtml?com.xcape.codObjeto=Consulta%20Eventos
+2026-10-26 12:21:37;202610;Localizar: Voltar;1062;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-10-26 12:21:38;202610;Confirmar Voltar (tentativa 1);797;5000;NAO;OK;
+2026-10-26 12:21:39;202610;Aguardar PAGINA1;891;10000;NAO;OK;esperou 875ms
+2026-10-26 12:21:39;202610;Fim ciclo e-Social;15;5000;NAO;OK;duracao_total_ms=38406
+2026-10-26 12:44:54;-;Limpar caixa Tipo Folha;2125;5000;NAO;OK;
+2026-10-26 12:44:55;-;Limpar caixa Tipo Folha;953;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-10-26 12:44:59;-;Inserir Tipo Folha;4343;5000;NAO;OK;qtd=4 valores=1,9,22,23
+2026-10-26 12:45:08;202610;Inicio ciclo e-Social;9016;5000;SIM;OK;datainicio=01/10/2026 datafim=31/10/2026 entidade=INATIVOS
+2026-10-26 12:45:08;202610;Aguardar PAGINA1;234;10000;NAO;OK;esperou 218ms
+2026-10-26 12:45:10;202610;Limpar caixa Conta;2094;5000;NAO;OK;
+2026-10-26 12:45:23;202610;Inserir Conta;12578;5000;SIM;OK;qtd=26 valores=476,545,478,485,398,746,747,722,7849,7852,542,845,7846,7851,7850,851,7851,852,848,541,7845,849,853,484,739,840
+2026-10-26 12:45:24;202610;Localizar: Referência;969;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-10-26 12:45:24;202610;Digitar data inicio;141;5000;NAO;OK;01/10/2026
+2026-10-26 12:45:24;202610;Tab entre campos;125;5000;NAO;OK;qtd=2
+2026-10-26 12:45:24;202610;Digitar data fim;125;5000;NAO;OK;31/10/2026
+2026-10-26 12:45:25;202610;Localizar: Executar;968;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-10-26 12:45:26;202610;Confirmar Executar (tentativa 1);313;5000;NAO;OK;
+2026-10-26 12:45:38;202610;Aguardar PAGINA2;12625;10000;SIM;OK;esperou 12578ms
+2026-10-26 12:45:38;202610;Obter quantidade resultados;344;5000;NAO;OK;qtd=7256
+2026-10-26 12:45:40;202610;Confirmar Exportar em PDF;1109;5000;NAO;OK;
+2026-10-26 12:45:40;202610;Seta para baixo 1/10;844;5000;NAO;OK;
+2026-10-26 12:45:41;202610;Seta para baixo 2/10;62;5000;NAO;OK;
+2026-10-26 12:45:41;202610;Seta para baixo 3/10;32;5000;NAO;OK;
+2026-10-26 12:45:41;202610;Seta para baixo 4/10;31;5000;NAO;OK;
+2026-10-26 12:45:41;202610;Seta para baixo 5/10;31;5000;NAO;OK;
+2026-10-26 12:45:41;202610;Seta para baixo 6/10;31;5000;NAO;OK;
+2026-10-26 12:45:41;202610;Seta para baixo 7/10;47;5000;NAO;OK;
+2026-10-26 12:45:41;202610;Seta para baixo 8/10;47;5000;NAO;OK;
+2026-10-26 12:45:41;202610;Seta para baixo 9/10;47;5000;NAO;OK;
+2026-10-26 12:45:41;202610;Seta para baixo 10/10;47;5000;NAO;OK;
+2026-10-26 12:45:41;202610;Selecionar formato CSV;125;5000;NAO;OK;tempo desde Enter que confirmou match ate aqui=1453ms
+2026-10-26 12:45:41;202610;Estado apos Enter final (formato);156;5000;NAO;OK;Exportar em PDF | ui-button | Executar | 
+2026-10-26 12:48:40;-;Limpar caixa Tipo Folha;2109;5000;NAO;OK;
+2026-10-26 12:48:41;-;Limpar caixa Tipo Folha;969;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-10-26 12:48:45;-;Inserir Tipo Folha;4375;5000;NAO;OK;qtd=4 valores=1,9,22,23
+2026-10-26 12:48:48;202610;Inicio ciclo e-Social;2391;5000;NAO;OK;datainicio=01/10/2026 datafim=31/10/2026 entidade=INATIVOS
+2026-10-26 12:48:48;202610;Aguardar PAGINA1;234;10000;NAO;OK;esperou 219ms
+2026-10-26 12:48:50;202610;Limpar caixa Conta;2078;5000;NAO;OK;
+2026-10-26 12:49:02;202610;Inserir Conta;12531;5000;SIM;OK;qtd=26 valores=476,545,478,485,398,746,747,722,7849,7852,542,845,7846,7851,7850,851,7851,852,848,541,7845,849,853,484,739,840
+2026-10-26 12:49:03;202610;Localizar: Referência;1016;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-10-26 12:49:03;202610;Digitar data inicio;125;5000;NAO;OK;01/10/2026
+2026-10-26 12:49:04;202610;Tab entre campos;141;5000;NAO;OK;qtd=2
+2026-10-26 12:49:04;202610;Digitar data fim;125;5000;NAO;OK;31/10/2026
+2026-10-26 12:49:05;202610;Localizar: Executar;968;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-10-26 12:49:05;202610;Confirmar Executar (tentativa 1);297;5000;NAO;OK;
+2026-10-26 12:49:10;202610;Desprender foco (Ctrl+F);4688;5000;NAO;AVISO;1a leitura veio vazia, tentando destravar e ler de novo
+2026-10-26 12:49:12;202610;Aguardar PAGINA2;2390;10000;NAO;ERRO;TIMEOUT apos 4156ms, ultima pagina detectada='SEM_LEITURA'
+2026-10-26 12:49:12;202610;Executar sem efeito ainda;0;5000;NAO;AVISO;tentativa=1 pagina='SEM_LEITURA'
+2026-10-26 12:49:12;202610;Confirmar Executar (tentativa 2);16;5000;NAO;OK;
+2026-10-26 12:49:15;202610;Desprender foco (Ctrl+F);2984;5000;NAO;AVISO;1a leitura veio vazia, tentando destravar e ler de novo
+2026-10-26 12:49:17;202610;Aguardar PAGINA2;2375;10000;NAO;ERRO;TIMEOUT apos 5343ms, ultima pagina detectada='SEM_LEITURA'
+2026-10-26 12:49:17;202610;Executar sem efeito ainda;16;5000;NAO;AVISO;tentativa=2 pagina='SEM_LEITURA'
+2026-10-26 12:49:20;202610;Desprender foco (Ctrl+F);2984;5000;NAO;AVISO;1a leitura veio vazia, tentando destravar e ler de novo
+2026-10-26 12:49:26;202610;Desprender foco (Ctrl+F);5469;5000;SIM;AVISO;1a leitura veio vazia, tentando destravar e ler de novo
+2026-10-26 12:49:28;202610;Aguardar PAGINA2;2453;10000;NAO;ERRO;TIMEOUT apos 10890ms, ultima pagina detectada='SEM_LEITURA'
+2026-10-26 12:49:28;202610;Pos-Executar;16;5000;NAO;ABORTADO;esperava PAGINA2, detectado='SEM_LEITURA'
+2026-10-26 12:49:34;202610;Estado antes de Voltar;5547;5000;SIM;OK;[SEM_LEITURA]
+2026-10-26 12:49:37;202610;Localizar: Voltar;3422;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-10-26 12:49:38;202610;Confirmar Voltar (tentativa 1);797;5000;NAO;OK;
+2026-10-26 12:49:39;202610;Aguardar PAGINA1;1093;10000;NAO;ERRO;TIMEOUT apos 1062ms, ultima pagina detectada='PAGINA2'
+2026-10-26 12:49:39;202610;Voltar sem efeito ainda;16;5000;NAO;AVISO;tentativa=1 pagina='PAGINA2'
+2026-10-26 12:49:39;202610;Confirmar Voltar (tentativa 2);16;5000;NAO;OK;
+2026-10-26 12:49:40;202610;Aguardar PAGINA1;890;10000;NAO;ERRO;TIMEOUT apos 875ms, ultima pagina detectada='PAGINA2'
+2026-10-26 12:49:40;202610;Voltar sem efeito ainda;250;5000;NAO;AVISO;tentativa=2 pagina='PAGINA2'
+2026-10-26 12:49:49;202610;Aguardar PAGINA1;8235;10000;NAO;ERRO;TIMEOUT apos 8219ms, ultima pagina detectada='PAGINA2'
+2026-10-26 12:49:49;202610;Fim ciclo e-Social;31;5000;NAO;OK;duracao_total_ms=61203
+2026-10-26 12:50:28;202610;Inicio ciclo e-Social;38797;5000;SIM;OK;datainicio=01/10/2026 datafim=31/10/2026 entidade=INATIVOS
+2026-10-26 12:50:28;202610;Aguardar PAGINA1;250;10000;NAO;OK;esperou 219ms
+2026-10-26 12:50:30;202610;Limpar caixa Conta;2093;5000;NAO;OK;
+2026-10-26 12:50:42;202610;Inserir Conta;12594;5000;SIM;OK;qtd=26 valores=476,545,478,485,398,746,747,722,7849,7852,542,845,7846,7851,7850,851,7851,852,848,541,7845,849,853,484,739,840
+2026-10-26 12:50:43;202610;Localizar: Referência;1031;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-10-26 12:50:44;202610;Digitar data inicio;141;5000;NAO;OK;01/10/2026
+2026-10-26 12:50:44;202610;Tab entre campos;125;5000;NAO;OK;qtd=2
+2026-10-26 12:50:44;202610;Digitar data fim;125;5000;NAO;OK;31/10/2026
+2026-10-26 12:50:45;202610;Localizar: Executar;969;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-10-26 12:50:45;202610;Confirmar Executar (tentativa 1);297;5000;NAO;OK;
+2026-10-26 12:50:50;202610;Aguardar PAGINA2;4593;10000;NAO;OK;esperou 4546ms
+2026-10-26 12:50:50;202610;Obter quantidade resultados;282;5000;NAO;OK;qtd=7256
+2026-10-26 12:50:51;202610;Confirmar Exportar em PDF;984;5000;NAO;OK;
+2026-10-26 12:50:52;202610;Seta para baixo 1/10;844;5000;NAO;OK;
+2026-10-26 12:50:52;202610;Seta para baixo 2/10;47;5000;NAO;OK;
+2026-10-26 12:50:52;202610;Seta para baixo 3/10;47;5000;NAO;OK;
+2026-10-26 12:50:52;202610;Seta para baixo 4/10;46;5000;NAO;OK;
+2026-10-26 12:50:52;202610;Seta para baixo 5/10;47;5000;NAO;OK;
+2026-10-26 12:50:52;202610;Seta para baixo 6/10;47;5000;NAO;OK;
+2026-10-26 12:50:52;202610;Seta para baixo 7/10;31;5000;NAO;OK;
+2026-10-26 12:50:52;202610;Seta para baixo 8/10;32;5000;NAO;OK;
+2026-10-26 12:50:52;202610;Seta para baixo 9/10;47;5000;NAO;OK;
+2026-10-26 12:50:52;202610;Seta para baixo 10/10;31;5000;NAO;OK;
+2026-10-26 12:50:52;202610;Selecionar formato CSV;125;5000;NAO;OK;tempo desde Enter que confirmou match ate aqui=1453ms
+2026-10-26 12:50:53;202610;Estado apos Enter final (formato);172;5000;NAO;OK;Exportar em PDF | ui-button | Executar | 
+2026-10-26 12:51:09;202610;Janela Salvar como;16203;5000;SIM;OK;saiu da URL do site (Salvar como presumido em foco)
+2026-10-26 12:51:11;202610;Definir pasta destino;1859;5000;NAO;OK;A:\setorsistemas\Facil Informatica\_FOLHAPAGAMENTO\ARQUIVOS ESOCIAL\Exportados\102026\CONSULTA EVENTOS
+2026-10-26 12:51:12;202610;Salvar arquivo;1656;5000;NAO;OK;202610_INATIVOS_Consulta Eventos
+2026-10-26 12:51:14;202610;Estado antes de Voltar;1735;5000;NAO;OK;https://admrhinativos.caxias.rs.gov.br/rhsysweb/secure/XcpExecObjForm.xhtml?com.xcape.codObjeto=Consulta%20Eventos
+2026-10-26 12:51:15;202610;Localizar: Voltar;1078;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-10-26 12:51:16;202610;Confirmar Voltar (tentativa 1);812;5000;NAO;OK;
+2026-10-26 12:51:17;202610;Aguardar PAGINA1;891;10000;NAO;OK;esperou 891ms
+2026-10-26 12:51:17;202610;Fim ciclo e-Social;16;5000;NAO;OK;duracao_total_ms=49250
+2026-10-26 12:51:32;202610;Limpar caixa Tipo Folha;2094;5000;NAO;OK;
+2026-10-26 12:51:33;202610;Limpar caixa Tipo Folha;969;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-10-26 12:51:37;202610;Inserir Tipo Folha;4375;5000;NAO;OK;qtd=4 valores=2,10,32,33
+2026-10-26 12:51:42;202610;Inicio ciclo e-Social;5234;5000;SIM;OK;datainicio=01/10/2026 datafim=31/10/2026 entidade=PENSIONISTAS
+2026-10-26 12:51:43;202610;Aguardar PAGINA1;235;10000;NAO;OK;esperou 219ms
+2026-10-26 12:51:45;202610;Limpar caixa Conta;2109;5000;NAO;OK;
+2026-10-26 12:51:57;202610;Inserir Conta;12547;5000;SIM;OK;qtd=26 valores=476,545,478,485,398,746,747,722,7849,7852,542,845,7846,7851,7850,851,7851,852,848,541,7845,849,853,484,739,840
+2026-10-26 12:51:58;202610;Localizar: Referência;1031;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-10-26 12:51:58;202610;Digitar data inicio;141;5000;NAO;OK;01/10/2026
+2026-10-26 12:51:59;202610;Tab entre campos;140;5000;NAO;OK;qtd=2
+2026-10-26 12:51:59;202610;Digitar data fim;110;5000;NAO;OK;31/10/2026
+2026-10-26 12:52:00;202610;Localizar: Executar;953;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-10-26 12:52:00;202610;Confirmar Executar (tentativa 1);297;5000;NAO;OK;
+2026-10-26 12:52:02;202610;Aguardar PAGINA2;1672;10000;NAO;OK;esperou 1657ms
+2026-10-26 12:52:02;202610;Obter quantidade resultados;281;5000;NAO;OK;qtd=951
+2026-10-26 12:52:03;202610;Confirmar Exportar em PDF;1016;5000;NAO;OK;
+2026-10-26 12:52:04;202610;Seta para baixo 1/10;843;5000;NAO;OK;
+2026-10-26 12:52:04;202610;Seta para baixo 2/10;47;5000;NAO;OK;
+2026-10-26 12:52:04;202610;Seta para baixo 3/10;47;5000;NAO;OK;
+2026-10-26 12:52:04;202610;Seta para baixo 4/10;47;5000;NAO;OK;
+2026-10-26 12:52:04;202610;Seta para baixo 5/10;47;5000;NAO;OK;
+2026-10-26 12:52:04;202610;Seta para baixo 6/10;47;5000;NAO;OK;
+2026-10-26 12:52:04;202610;Seta para baixo 7/10;47;5000;NAO;OK;
+2026-10-26 12:52:04;202610;Seta para baixo 8/10;46;5000;NAO;OK;
+2026-10-26 12:52:04;202610;Seta para baixo 9/10;47;5000;NAO;OK;
+2026-10-26 12:52:04;202610;Seta para baixo 10/10;47;5000;NAO;OK;
+2026-10-26 12:52:04;202610;Selecionar formato CSV;125;5000;NAO;OK;tempo desde Enter que confirmou match ate aqui=1500ms
+2026-10-26 12:52:04;202610;Estado apos Enter final (formato);156;5000;NAO;OK;Exportar em PDF | ui-button | Executar | 
+2026-10-26 12:52:09;202610;Janela Salvar como;4860;5000;NAO;OK;saiu da URL do site (Salvar como presumido em foco)
+2026-10-26 12:52:11;202610;Definir pasta destino;1859;5000;NAO;OK;A:\setorsistemas\Facil Informatica\_FOLHAPAGAMENTO\ARQUIVOS ESOCIAL\Exportados\102026\CONSULTA EVENTOS
+2026-10-26 12:52:13;202610;Salvar arquivo;1688;5000;NAO;OK;202610_PENSIONISTAS_Consulta Eventos
+2026-10-26 12:52:15;202610;Estado antes de Voltar;1765;5000;NAO;OK;https://admrhinativos.caxias.rs.gov.br/rhsysweb/secure/XcpExecObjForm.xhtml?com.xcape.codObjeto=Consulta%20Eventos
+2026-10-26 12:52:16;202610;Localizar: Voltar;1078;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-10-26 12:52:17;202610;Confirmar Voltar (tentativa 1);797;5000;NAO;OK;
+2026-10-26 12:52:17;202610;Aguardar PAGINA1;891;10000;NAO;OK;esperou 875ms
+2026-10-26 12:52:17;202610;Fim ciclo e-Social;16;5000;NAO;OK;duracao_total_ms=35032
+2026-11-24 11:46:46;-;Limpar caixa Tipo Folha;2125;5000;NAO;OK;
+2026-11-24 11:46:47;-;Limpar caixa Tipo Folha;953;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-11-24 11:46:51;-;Inserir Tipo Folha;4672;5000;NAO;OK;qtd=5 valores=1,12,16,22,4
+2026-11-24 11:47:41;-;Limpar caixa Tipo Folha;2125;5000;NAO;OK;
+2026-11-24 11:47:42;-;Limpar caixa Tipo Folha;937;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-11-24 11:47:47;-;Inserir Tipo Folha;4688;5000;NAO;OK;qtd=5 valores=1,12,16,22,4
+2026-11-24 11:47:53;202611;Inicio ciclo e-Social;6234;5000;SIM;OK;datainicio=01/11/2026 datafim=30/11/2026 entidade=PREFEITURA
+2026-11-24 11:47:54;202611;Aguardar PAGINA1;250;10000;NAO;OK;esperou 234ms
+2026-11-24 11:47:56;202611;Limpar caixa Conta;2109;5000;NAO;OK;
+2026-11-24 11:47:57;202611;Limpar caixa Conta;938;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-11-24 11:48:12;202611;Inserir Conta;15219;5000;SIM;OK;qtd=37 valores=476,545,478,485,398,746,747,722,542,845,873,546,547,851,543,852,848,541,872,849,838,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-11-24 11:48:13;202611;Localizar: Referência;1031;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-11-24 11:48:13;202611;Digitar data inicio;109;5000;NAO;OK;01/11/2026
+2026-11-24 11:48:13;202611;Tab entre campos;125;5000;NAO;OK;qtd=2
+2026-11-24 11:48:13;202611;Digitar data fim;125;5000;NAO;OK;30/11/2026
+2026-11-24 11:48:14;202611;Localizar: Executar;953;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-11-24 11:48:14;202611;Confirmar Executar (tentativa 1);297;5000;NAO;OK;
+2026-11-24 11:48:29;202611;Aguardar PAGINA2;14657;10000;SIM;OK;esperou 14641ms
+2026-11-24 11:48:30;202611;Obter quantidade resultados;437;5000;NAO;OK;qtd=9118
+2026-11-24 11:48:31;202611;Confirmar Exportar em PDF;1016;5000;NAO;OK;
+2026-11-24 11:48:31;202611;Seta para baixo 1/10;843;5000;NAO;OK;
+2026-11-24 11:48:31;202611;Seta para baixo 2/10;47;5000;NAO;OK;
+2026-11-24 11:48:31;202611;Seta para baixo 3/10;47;5000;NAO;OK;
+2026-11-24 11:48:32;202611;Seta para baixo 4/10;47;5000;NAO;OK;
+2026-11-24 11:48:32;202611;Seta para baixo 5/10;47;5000;NAO;OK;
+2026-11-24 11:48:32;202611;Seta para baixo 6/10;47;5000;NAO;OK;
+2026-11-24 11:48:32;202611;Seta para baixo 7/10;31;5000;NAO;OK;
+2026-11-24 11:48:32;202611;Seta para baixo 8/10;31;5000;NAO;OK;
+2026-11-24 11:48:32;202611;Seta para baixo 9/10;32;5000;NAO;OK;
+2026-11-24 11:48:32;202611;Seta para baixo 10/10;46;5000;NAO;OK;
+2026-11-24 11:48:32;202611;Selecionar formato CSV;125;5000;NAO;OK;tempo desde Enter que confirmou match ate aqui=1453ms
+2026-11-24 11:48:32;202611;Estado apos Enter final (formato);157;5000;NAO;OK;Exportar em PDF | ui-button | Executar | 
+2026-11-24 11:48:52;202611;Janela Salvar como;20047;5000;SIM;OK;saiu da URL do site (Salvar como presumido em foco)
+2026-11-24 11:48:54;202611;Definir pasta destino;1859;5000;NAO;OK;A:\setorsistemas\Facil Informatica\_FOLHAPAGAMENTO\ARQUIVOS ESOCIAL\Exportados\112026\CONSULTA EVENTOS
+2026-11-24 11:48:56;202611;Salvar arquivo;1672;5000;NAO;OK;202611_PREFEITURA_Consulta Eventos
+2026-11-24 11:48:57;202611;Estado antes de Voltar;1734;5000;NAO;OK;https://admrh.caxias.rs.gov.br/rhsysweb/secure/XcpExecObjForm.xhtml?com.xcape.codObjeto=Consulta%20Eventos
+2026-11-24 11:48:58;202611;Localizar: Voltar;1063;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-11-24 11:48:59;202611;Confirmar Voltar (tentativa 1);812;5000;NAO;OK;
+2026-11-24 11:49:00;202611;Aguardar PAGINA1;547;10000;NAO;OK;esperou 547ms
+2026-11-24 11:49:00;202611;Fim ciclo e-Social;16;5000;NAO;OK;duracao_total_ms=66516
+2026-11-24 11:49:48;202611;Limpar caixa Tipo Folha;2125;5000;NAO;OK;
+2026-11-24 11:49:49;202611;Limpar caixa Tipo Folha;953;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-11-24 11:49:54;202611;Inserir Tipo Folha;4656;5000;NAO;OK;qtd=5 valores=1,12,16,22,4
+2026-11-24 11:50:04;202611;Limpar caixa Tipo Folha;2109;5000;NAO;OK;
+2026-11-24 11:50:05;202611;Limpar caixa Tipo Folha;953;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-11-24 11:50:09;202611;Inserir Tipo Folha;4672;5000;NAO;OK;qtd=5 valores=1,12,16,22,4
+2026-11-24 11:54:17;202611;Inicio ciclo e-Social;247250;5000;SIM;OK;datainicio=01/11/2026 datafim=30/11/2026 entidade=IPAM
+2026-11-24 11:54:17;202611;Aguardar PAGINA1;235;10000;NAO;OK;esperou 235ms
+2026-11-24 11:54:19;202611;Limpar caixa Conta;2140;5000;NAO;OK;
+2026-11-24 11:54:34;202611;Inserir Conta: valor(es) aparentemente faltando (checagem sujeita a falso alarme);15578;5000;SIM;AVISO;faltando=544,478,485,398,746,747,722,542,845,873,546,851,543,852,848,541,872,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412 valores_inseridos=476,544,478,485,398,746,747,722,542,845,873,546,851,543,852,848,541,872,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-11-24 11:54:35;202611;Aplicar Conta (e-Social);204;5000;NAO;AVISO;faltando apos 1a insercao=544,478,485,398,746,747,722,542,845,873,546,851,543,852,848,541,872,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412 - tentando reinserir apenas os faltantes
+2026-11-24 11:54:49;202611;Inserir Conta: valor(es) aparentemente faltando (checagem sujeita a falso alarme);14312;5000;SIM;AVISO;faltando=544,478,485,398,746,747,722,542,845,873,546,851,543,852,848,541,872,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412 valores_inseridos=544,478,485,398,746,747,722,542,845,873,546,851,543,852,848,541,872,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-11-24 11:54:49;202611;Aplicar Conta (e-Social);203;5000;NAO;ABORTADO;faltando apos retry=544,478,485,398,746,747,722,542,845,873,546,851,543,852,848,541,872,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412, entidade=IPAM
+2026-11-24 11:54:51;202611;Estado antes de Voltar;2141;5000;NAO;OK;[SEM_LEITURA]
+2026-11-24 11:54:52;202611;Localizar: Voltar;1140;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-11-24 11:54:53;202611;Confirmar Voltar (tentativa 1);797;5000;NAO;OK;
+2026-11-24 11:54:54;202611;Aguardar PAGINA1;250;10000;NAO;OK;esperou 218ms
+2026-11-24 11:54:54;202611;Fim ciclo e-Social;0;5000;NAO;OK;duracao_total_ms=37000
+2026-11-24 11:55:12;202611;Inicio ciclo e-Social;18375;5000;SIM;OK;datainicio=01/11/2026 datafim=30/11/2026 entidade=IPAM
+2026-11-24 11:55:12;202611;Aguardar PAGINA1;282;10000;NAO;OK;esperou 235ms
+2026-11-24 11:55:14;202611;Limpar caixa Conta;2109;5000;NAO;OK;
+2026-11-24 11:55:31;202611;Inserir Conta: valor(es) aparentemente faltando (checagem sujeita a falso alarme);16469;5000;SIM;AVISO;faltando=476,544,478,485,398,746,747,722,542,845,873,546,851,543,852,848,541,872,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412 valores_inseridos=476,544,478,485,398,746,747,722,542,845,873,546,851,543,852,848,541,872,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-11-24 11:55:40;202611;Aplicar Conta (e-Social);9047;5000;SIM;AVISO;faltando apos 1a insercao=476,544,478,485,398,746,747,722,542,845,873,546,851,543,852,848,541,872,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412 - tentando reinserir apenas os faltantes
+2026-11-24 12:08:07;-;Limpar caixa Tipo Folha;2125;5000;NAO;OK;
+2026-11-24 12:08:08;-;Limpar caixa Tipo Folha;953;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-11-24 12:08:13;-;Inserir Tipo Folha;4703;5000;NAO;OK;qtd=5 valores=1,12,16,22,4
+2026-11-24 12:08:18;202611;Inicio ciclo e-Social;4938;5000;NAO;OK;datainicio=01/11/2026 datafim=30/11/2026 entidade=IPAM
+2026-11-24 12:08:18;202611;Aguardar PAGINA1;234;10000;NAO;OK;esperou 218ms
+2026-11-24 12:08:20;202611;Limpar caixa Conta;2125;5000;NAO;OK;
+2026-11-24 12:08:36;202611;Inserir Conta;15563;5000;SIM;OK;qtd=35 valores=476,544,478,485,398,746,747,722,542,845,873,546,851,543,852,848,541,872,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-11-24 12:08:37;202611;Localizar: Referência;1015;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-11-24 12:08:37;202611;Digitar data inicio;141;5000;NAO;OK;01/11/2026
+2026-11-24 12:08:37;202611;Tab entre campos;125;5000;NAO;OK;qtd=2
+2026-11-24 12:08:37;202611;Digitar data fim;125;5000;NAO;OK;30/11/2026
+2026-11-24 12:08:38;202611;Localizar: Executar;984;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-11-24 12:08:38;202611;Confirmar Executar (tentativa 1);297;5000;NAO;OK;
+2026-11-24 12:08:40;202611;Aguardar PAGINA2;1219;10000;NAO;ERRO;TIMEOUT apos 984ms, ultima pagina detectada='PAGINA1'
+2026-11-24 12:08:40;202611;Executar sem efeito ainda;16;5000;NAO;AVISO;tentativa=1 pagina='PAGINA1'
+2026-11-24 12:08:40;202611;Confirmar Executar (tentativa 2);15;5000;NAO;OK;
+2026-11-24 12:08:41;202611;Aguardar PAGINA2;891;10000;NAO;ERRO;TIMEOUT apos 891ms, ultima pagina detectada='PAGINA1'
+2026-11-24 12:08:41;202611;Executar sem efeito ainda;16;5000;NAO;AVISO;tentativa=2 pagina='PAGINA1'
+2026-11-24 12:08:50;202611;Desprender foco (Ctrl+F);9578;5000;SIM;AVISO;1a leitura veio vazia, tentando destravar e ler de novo
+2026-11-24 12:08:51;202611;Aguardar PAGINA2;1031;10000;NAO;ERRO;TIMEOUT apos 10594ms, ultima pagina detectada='PAGINA1'
+2026-11-24 12:08:51;202611;Pos-Executar;16;5000;NAO;ABORTADO;esperava PAGINA2, detectado='PAGINA1'
+2026-11-24 12:08:52;202611;Estado antes de Voltar;953;5000;NAO;OK; | Instituto de Previdência e Assistência Municipal - IPAM | [Calculadoras] anderson.ramires | Sair | Lançamentos | Geração de Arquivos | Consultas Dinâmicas |  |     Consulta de Eventos |  | Consulta de Eventos | [Adicionar/Remover Favoritos] 	 | 	[Ejetar Janela] | Selecione Configuração | Filtros Gerais | Tipo Folha: | 	 | BuscarLimparEditar Tabela | 	 | 	Tipo Folha | 	Tipo Folha | 	1 - MENSAL | 	12 - Rescisão Complementar | 	16 - Suplementar | 	22 - Complementar - Folhas avulsas | 	4 - RESCISÃO DE CONTRATO | 	ui-button | Referência: | 	 | ui-button | até | ui-button | Data de Pagamento: | 	 | ui-button | até | ui-button | Disponibilidade Folha:* | 	 | Apenas folhas que compõem pagamento | Todos os tipos de folha | O campo Disponibilidade Folha é obrigatório | Tipo da Conta: | 	 | BuscarLimparEditar Tabela | 	 | 	Tipo da Conta | 	Tipo da Conta | 	Base | 	Consignado | 	Desconto | 	Provento | 	Resultado | 	ui-button | Tipo Lançamento Conta: | 	 | BuscarLimparEditar Tabela | 	 | 	Tipo Lançamento Conta | 	Tipo Lançamento Conta | 	Calculado | 	Diferenças retroativas | 	Fixo | 	Importado | 	Lançamentos | 	Outras folhas | 	Ponto | 	Relógio | 	ui-button | Conta: | 	 | BuscarLimparEditar Tabela | 	 | 	Conta | 	Conta | 	476 - Dif. Crédito IPAM Saúde | 	544 - Dif. Crédito IPAM Saúde não dedutível | 	478 - Devolução IPAM Saúde | 	485 - Reembolso IPAM | 	398 - Reembolso Lei 3673 - Artigo 181 | 	746 - Reembolso IPAM não dedutível | 	747 - Reembolso Lei 3673 - Art 181/19 não dedutível | 	722 - Emprestimo IPAM | 	542 - IPAM - Empréstimos não dedutível | 	845 - IPAM Saude - Mensal | 	873 - Mensalidade Ipam Saúde - Desconto Dívida ativa | 	546 - Ipam Reposição não dedutível - Desconto Dívida Ativa | 	851 - Dif. Deb. IPAM Saúde | 	543 - Dif. Deb. IPAM Saúde não dedutivel | 	852 - Dependente Optativo Saúde | 	848 - Reposicao IPAM | 	541 - Reposicao IPAM não dedutível | 	872 - Ipam Reposição - Desconto Dívida Ativa | 	849 - Saldo IPAM Reposição | 	853 - Dif. IPAM Saúde (14% Padrão 01)...(truncado, total=3312 chars)
+2026-11-24 12:08:53;202611;Localizar: Voltar;1047;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-11-24 12:08:54;202611;Confirmar Voltar (tentativa 1);828;5000;NAO;OK;
+2026-11-24 12:08:54;202611;Aguardar PAGINA1;218;10000;NAO;OK;esperou 218ms
+2026-11-24 12:08:54;202611;Fim ciclo e-Social;16;5000;NAO;OK;duracao_total_ms=36453
+2026-11-24 12:09:10;202611;Inicio ciclo e-Social;16047;5000;SIM;OK;datainicio=01/11/2026 datafim=30/11/2026 entidade=IPAM
+2026-11-24 12:09:11;202611;Aguardar PAGINA1;219;10000;NAO;OK;esperou 219ms
+2026-11-24 12:09:13;202611;Limpar caixa Conta;2109;5000;NAO;OK;
+2026-11-24 12:09:28;202611;Inserir Conta;15516;5000;SIM;OK;qtd=35 valores=476,544,478,485,398,746,747,722,542,845,873,546,851,543,852,848,541,872,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-11-24 12:09:29;202611;Localizar: Referência;1015;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-11-24 12:09:29;202611;Digitar data inicio;141;5000;NAO;OK;01/11/2026
+2026-11-24 12:09:29;202611;Tab entre campos;109;5000;NAO;OK;qtd=2
+2026-11-24 12:09:30;202611;Digitar data fim;188;5000;NAO;OK;30/11/2026
+2026-11-24 12:09:31;202611;Localizar: Executar;1000;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-11-24 12:09:31;202611;Confirmar Executar (tentativa 1);312;5000;NAO;OK;
+2026-11-24 12:09:32;202611;Aguardar PAGINA2;1235;10000;NAO;ERRO;TIMEOUT apos 985ms, ultima pagina detectada='PAGINA1'
+2026-11-24 12:09:32;202611;Executar sem efeito ainda;15;5000;NAO;AVISO;tentativa=1 pagina='PAGINA1'
+2026-11-24 12:09:32;202611;Confirmar Executar (tentativa 2);0;5000;NAO;OK;
+2026-11-24 12:09:33;202611;Aguardar PAGINA2;907;10000;NAO;ERRO;TIMEOUT apos 891ms, ultima pagina detectada='PAGINA1'
+2026-11-24 12:09:33;202611;Executar sem efeito ainda;15;5000;NAO;AVISO;tentativa=2 pagina='PAGINA1'
+2026-11-24 12:09:38;202611;Desprender foco (Ctrl+F);4969;5000;NAO;AVISO;1a leitura veio vazia, tentando destravar e ler de novo
+2026-11-24 12:09:41;202611;Aguardar PAGINA2;3266;10000;NAO;ERRO;TIMEOUT apos 8235ms, ultima pagina detectada='PAGINA1'
+2026-11-24 12:09:41;202611;Pos-Executar;31;5000;NAO;ABORTADO;esperava PAGINA2, detectado='PAGINA1'
+2026-11-24 12:12:31;202611;Estado antes de Voltar;169703;5000;SIM;OK; | Instituto de Previdência e Assistência Municipal - IPAM | [Calculadoras] anderson.ramires | Sair | Lançamentos | Geração de Arquivos | Consultas Dinâmicas |  |     Consulta de Eventos |  | Consulta de Eventos | [Adicionar/Remover Favoritos] 	 | 	[Ejetar Janela] | Selecione Configuração | Filtros Gerais | Tipo Folha: | 	 | BuscarLimparEditar Tabela | 	 | 	Tipo Folha | 	Tipo Folha | 	1 - MENSAL | 	12 - Rescisão Complementar | 	16 - Suplementar | 	22 - Complementar - Folhas avulsas | 	4 - RESCISÃO DE CONTRATO | 	ui-button | Referência: | 	 | ui-button | até | ui-button | Data de Pagamento: | 	 | ui-button | até | ui-button | Disponibilidade Folha:* | 	 | Apenas folhas que compõem pagamento | Todos os tipos de folha | Tipo da Conta: | 	 | BuscarLimparEditar Tabela | 	 | 	Tipo da Conta | 	Tipo da Conta | 	Base | 	Consignado | 	Desconto | 	Provento | 	Resultado | 	ui-button | Tipo Lançamento Conta: | 	 | BuscarLimparEditar Tabela | 	 | 	Tipo Lançamento Conta | 	Tipo Lançamento Conta | 	Calculado | 	Diferenças retroativas | 	Fixo | 	Importado | 	Lançamentos | 	Outras folhas | 	Ponto | 	Relógio | 	ui-button | Conta: | 	 | BuscarLimparEditar Tabela | 	 | 	Conta | 	Conta | 	476 - Dif. Crédito IPAM Saúde | 	544 - Dif. Crédito IPAM Saúde não dedutível | 	478 - Devolução IPAM Saúde | 	485 - Reembolso IPAM | 	398 - Reembolso Lei 3673 - Artigo 181 | 	746 - Reembolso IPAM não dedutível | 	747 - Reembolso Lei 3673 - Art 181/19 não dedutível | 	722 - Emprestimo IPAM | 	542 - IPAM - Empréstimos não dedutível | 	845 - IPAM Saude - Mensal | 	873 - Mensalidade Ipam Saúde - Desconto Dívida ativa | 	546 - Ipam Reposição não dedutível - Desconto Dívida Ativa | 	851 - Dif. Deb. IPAM Saúde | 	543 - Dif. Deb. IPAM Saúde não dedutivel | 	852 - Dependente Optativo Saúde | 	848 - Reposicao IPAM | 	541 - Reposicao IPAM não dedutível | 	872 - Ipam Reposição - Desconto Dívida Ativa | 	849 - Saldo IPAM Reposição | 	853 - Dif. IPAM Saúde (14% Padrão 01) | 	484 - Dev. IPAM - Reposição | 	739 - Dev. ...(truncado, total=3135 chars)
+2026-11-24 12:12:32;202611;Localizar: Voltar;1109;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-11-24 12:12:33;202611;Confirmar Voltar (tentativa 1);1063;5000;NAO;OK;
+2026-11-24 12:12:33;202611;Aguardar PAGINA1;234;10000;NAO;OK;esperou 219ms
+2026-11-24 12:12:33;202611;Fim ciclo e-Social;16;5000;NAO;OK;duracao_total_ms=203172
+2026-11-24 12:53:36;202611;Inicio ciclo e-Social;2462047;5000;SIM;OK;datainicio=01/11/2026 datafim=30/11/2026 entidade=IPAM
+2026-11-24 12:53:36;202611;Aguardar PAGINA1;250;10000;NAO;OK;esperou 219ms
+2026-11-24 12:53:38;202611;Limpar caixa Conta;2078;5000;NAO;OK;
+2026-11-24 12:53:53;202611;Inserir Conta;15500;5000;SIM;OK;qtd=35 valores=476,544,478,485,398,746,747,722,542,845,873,546,851,543,852,848,541,872,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-11-24 12:53:54;202611;Localizar: Referência;1015;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-11-24 12:53:55;202611;Digitar data inicio;141;5000;NAO;OK;01/11/2026
+2026-11-24 12:53:55;202611;Tab entre campos;141;5000;NAO;OK;qtd=2
+2026-11-24 12:53:55;202611;Digitar data fim;125;5000;NAO;OK;30/11/2026
+2026-11-24 12:53:56;202611;Localizar: Executar;968;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-11-24 12:53:56;202611;Confirmar Executar (tentativa 1);297;5000;NAO;OK;
+2026-11-24 12:53:58;202611;Aguardar PAGINA2;2235;10000;NAO;OK;esperou 2219ms
+2026-11-24 12:53:59;202611;Obter quantidade resultados;343;5000;NAO;OK;qtd=61
+2026-11-24 12:54:00;202611;Confirmar Exportar em PDF;1000;5000;NAO;OK;
+2026-11-24 12:54:00;202611;Seta para baixo 1/10;829;5000;NAO;OK;
+2026-11-24 12:54:01;202611;Seta para baixo 2/10;62;5000;NAO;OK;
+2026-11-24 12:54:01;202611;Seta para baixo 3/10;47;5000;NAO;OK;
+2026-11-24 12:54:01;202611;Seta para baixo 4/10;47;5000;NAO;OK;
+2026-11-24 12:54:01;202611;Seta para baixo 5/10;31;5000;NAO;OK;
+2026-11-24 12:54:01;202611;Seta para baixo 6/10;31;5000;NAO;OK;
+2026-11-24 12:54:01;202611;Seta para baixo 7/10;32;5000;NAO;OK;
+2026-11-24 12:54:01;202611;Seta para baixo 8/10;31;5000;NAO;OK;
+2026-11-24 12:54:01;202611;Seta para baixo 9/10;31;5000;NAO;OK;
+2026-11-24 12:54:01;202611;Seta para baixo 10/10;47;5000;NAO;OK;
+2026-11-24 12:54:01;202611;Selecionar formato CSV;125;5000;NAO;OK;tempo desde Enter que confirmou match ate aqui=1422ms
+2026-11-24 12:54:01;202611;Estado apos Enter final (formato);156;5000;NAO;OK;Exportar em PDF | ui-button | Executar | 
+2026-11-24 12:54:06;202611;Janela Salvar como;5047;5000;SIM;OK;saiu da URL do site (Salvar como presumido em foco)
+2026-11-24 12:54:08;202611;Definir pasta destino;1859;5000;NAO;OK;A:\setorsistemas\Facil Informatica\_FOLHAPAGAMENTO\ARQUIVOS ESOCIAL\Exportados\112026\CONSULTA EVENTOS
+2026-11-24 12:54:10;202611;Salvar arquivo;1766;5000;NAO;OK;202611_IPAM_Consulta Eventos
+2026-11-24 12:54:12;202611;Estado antes de Voltar;1750;5000;NAO;OK;https://admrhipam.caxias.rs.gov.br/rhsysweb/secure/XcpExecObjForm.xhtml
+2026-11-24 12:54:13;202611;Localizar: Voltar;1063;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-11-24 12:54:13;202611;Confirmar Voltar (tentativa 1);812;5000;NAO;OK;
+2026-11-24 12:54:14;202611;Aguardar PAGINA1;906;10000;NAO;OK;esperou 890ms
+2026-11-24 12:54:14;202611;Fim ciclo e-Social;0;5000;NAO;OK;duracao_total_ms=38765
+2026-11-24 14:33:17;-;Inserir Tipo Folha: caixa difere, vai limpar e reinserir;281;5000;NAO;OK;atuais=10,2,32,33 pretendidos=1,9,22,23
+2026-11-24 14:33:19;-;Limpar caixa Tipo Folha;2016;5000;NAO;OK;
+2026-11-24 14:33:20;-;Limpar caixa Tipo Folha;953;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-11-24 14:33:27;-;Inserir Tipo Folha: valor(es) aparentemente faltando (checagem sujeita a falso alarme);7093;5000;SIM;AVISO;faltando=9 valores_inseridos=1,9,22,23 lidas=1 - MENSAL - Inativos ## 22 - Suplementar - Dias em Vida (Inat.) ## 23 - Suplementar - Recadastr. (Inativos)
+2026-11-24 14:33:31;-;Inserir Tipo Folha: valor(es) aparentemente faltando (checagem sujeita a falso alarme);4204;5000;NAO;AVISO;faltando=9 valores_inseridos=9 lidas=1 - MENSAL - Inativos ## 22 - Suplementar - Dias em Vida (Inat.) ## 23 - Suplementar - Recadastr. (Inativos)
+2026-11-24 14:33:40;-;Inserir Tipo Folha: caixa difere, vai limpar e reinserir;281;5000;NAO;OK;atuais=1,22,23 pretendidos=1,9,22,23
+2026-11-24 14:33:42;-;Limpar caixa Tipo Folha;1985;5000;NAO;OK;
+2026-11-24 14:33:43;-;Limpar caixa Tipo Folha;953;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-11-24 14:33:50;-;Inserir Tipo Folha;7125;5000;SIM;OK;qtd=4 valores=1,9,22,23 lidas=1 - MENSAL - Inativos ## 22 - Suplementar - Dias em Vida (Inat.) ## 23 - Suplementar - Recadastr. (Inativos) ## 9 - Suplementar (Inativos)
+2026-11-24 14:33:55;202611;Inicio ciclo e-Social;5515;5000;SIM;OK;datainicio=01/11/2026 datafim=30/11/2026 entidade=INATIVOS
+2026-11-24 14:33:56;202611;Aguardar PAGINA1;235;10000;NAO;OK;esperou 219ms
+2026-11-24 14:33:56;202611;Inserir Conta: ja correto, pulando limpar/inserir;156;5000;NAO;OK;valores=476,545,478,485,398,746,747,722,7849,7852,542,845,7846,7851,7850,851,7851,852,848,541,7845,849,853,484,739,840
+2026-11-24 14:33:57;202611;Localizar: Referência;1031;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-11-24 14:33:57;202611;Digitar data inicio;125;5000;NAO;OK;01/11/2026
+2026-11-24 14:33:57;202611;Tab entre campos;125;5000;NAO;OK;qtd=2
+2026-11-24 14:33:57;202611;Digitar data fim;125;5000;NAO;OK;30/11/2026
+2026-11-24 14:33:58;202611;Localizar: Executar;985;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-11-24 14:33:59;202611;Confirmar Executar (tentativa 1);297;5000;NAO;OK;
+2026-11-24 14:34:00;202611;Aguardar PAGINA2;1218;10000;NAO;ERRO;TIMEOUT apos 984ms, ultima pagina detectada='PAGINA1'
+2026-11-24 14:34:00;202611;Executar sem efeito ainda;32;5000;NAO;AVISO;tentativa=1 pagina='PAGINA1'
+2026-11-24 14:34:00;202611;Confirmar Executar (tentativa 2);15;5000;NAO;OK;
+2026-11-24 14:34:01;202611;Aguardar PAGINA2;891;10000;NAO;ERRO;TIMEOUT apos 875ms, ultima pagina detectada='PAGINA1'
+2026-11-24 14:34:01;202611;Executar sem efeito ainda;15;5000;NAO;AVISO;tentativa=2 pagina='PAGINA1'
+2026-11-24 14:34:09;202611;Aguardar PAGINA2;8188;10000;NAO;ERRO;TIMEOUT apos 8172ms, ultima pagina detectada='PAGINA1'
+2026-11-24 14:34:09;202611;Pos-Executar;31;5000;NAO;ABORTADO;esperava PAGINA2, detectado='PAGINA1'
+2026-11-24 14:34:10;202611;Estado antes de Voltar;969;5000;NAO;OK; | Inst. Prev. Assist. Municipal - IPAM Inativos/Pensionistas | [Calculadoras] anderson.ramires | Sair | Lançamentos | Relatórios | Consultas Dinâmicas |  |     Consulta Servidores |     Consulta de Eventos |     Consulta Contribuiçoes |     Manutenção Contribuições FAPS |  | Portal | Consulta de Eventos | [Adicionar/Remover Favoritos] 	 | 	[Ejetar Janela] | Selecione Configuração | Filtros Gerais | Tipo Folha: | 	 | BuscarLimparEditar Tabela | 	 | 	Tipo Folha | 	Tipo Folha | 	1 - MENSAL - Inativos | 	9 - Suplementar (Inativos) | 	22 - Suplementar - Dias em Vida (Inat.) | 	23 - Suplementar - Recadastr. (Inativos) | 	ui-button | Referência: | 	 | ui-button | até | ui-button | Data de Pagamento: | 	 | ui-button | até | ui-button | Disponibilidade Folha:* | 	 | Apenas folhas que compõem pagamento | Todos os tipos de folha | O campo Disponibilidade Folha é obrigatório | Tipo da Conta: | 	 | BuscarLimparEditar Tabela | 	 | 	Tipo da Conta | 	Tipo da Conta | 	Base | 	Consignado | 	Desconto | 	Provento | 	Resultado | 	ui-button | Tipo Lançamento Conta: | 	 | BuscarLimparEditar Tabela | 	 | 	Tipo Lançamento Conta | 	Tipo Lançamento Conta | 	Calculado | 	Diferenças retroativas | 	Fixo | 	Importado | 	Lançamentos | 	Outras folhas | 	Ponto | 	Relógio | 	ui-button | Conta: | 	 | BuscarLimparEditar Tabela | 	 | 	Conta | 	Conta | 	398 - Reembolso IPAM Art. 181 | 	476 - Dif. Crédito IPAM Saúde | 	478 - Devolução IPAM Saúde | 	484 - Dev. Reposicao Cobrada a Maior | 	485 - Reembolso IPAM | 	541 - Desconto Reposicao IPAM não dedutível | 	542 - Desconto Financ./Emprest.IPAM não dedutível | 	545 - Dif. Crédito IPAM Saúde não dedutível | 	722 - Desconto Financ./Emprest.IPAM | 	739 - Dev. IPAM - Reposição não dedutível | 	746 - Reembolso IPAM não dedutível | 	747 - Reembolso Lei 3673 - Art 181/19 não dedutível | 	7845 - Desconto Dívida Ativa - Ipam Reposição Dedutível | 	7846 - Desconto Dívida Ativa - Mensalidade Ipam Saúde Dedutível | 	7849 - Desconto Dívida Ativa - Ipam Financiamento De...(truncado, total=3187 chars)
+2026-11-24 14:34:11;202611;Localizar: Voltar;1062;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-11-24 14:34:12;202611;Confirmar Voltar (tentativa 1);813;5000;NAO;OK;
+2026-11-24 14:34:12;202611;Aguardar PAGINA1;234;10000;NAO;OK;esperou 218ms
+2026-11-24 14:34:12;202611;Fim ciclo e-Social;16;5000;NAO;OK;duracao_total_ms=16563
+2026-11-24 14:34:35;-;Inserir Tipo Folha: ja correto, pulando limpar/inserir;296;5000;NAO;OK;valores=1,9,22,23
+2026-11-24 14:34:41;202611;Inicio ciclo e-Social;6907;5000;SIM;OK;datainicio=01/11/2026 datafim=30/11/2026 entidade=INATIVOS
+2026-11-24 14:34:42;202611;Aguardar PAGINA1;234;10000;NAO;OK;esperou 219ms
+2026-11-24 14:34:42;202611;Inserir Conta: ja correto, pulando limpar/inserir;172;5000;NAO;OK;valores=476,545,478,485,398,746,747,722,7849,7852,542,845,7846,7851,7850,851,7851,852,848,541,7845,849,853,484,739,840
+2026-11-24 14:34:43;202611;Localizar: Referência;1016;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-11-24 14:34:43;202611;Digitar data inicio;125;5000;NAO;OK;01/11/2026
+2026-11-24 14:34:43;202611;Tab entre campos;140;5000;NAO;OK;qtd=2
+2026-11-24 14:34:43;202611;Digitar data fim;141;5000;NAO;OK;30/11/2026
+2026-11-24 14:34:44;202611;Localizar: Executar;969;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-11-24 14:34:45;202611;Confirmar Executar (tentativa 1);296;5000;NAO;OK;
+2026-11-24 14:34:58;202611;Aguardar PAGINA2;13266;10000;SIM;OK;esperou 13250ms
+2026-11-24 14:34:58;202611;Obter quantidade resultados;375;5000;NAO;OK;qtd=7232
+2026-11-24 14:34:59;202611;Confirmar Exportar em PDF;1000;5000;NAO;OK;
+2026-11-24 14:35:00;202611;Seta para baixo 1/10;844;5000;NAO;OK;
+2026-11-24 14:35:00;202611;Seta para baixo 2/10;47;5000;NAO;OK;
+2026-11-24 14:35:00;202611;Seta para baixo 3/10;47;5000;NAO;OK;
+2026-11-24 14:35:00;202611;Seta para baixo 4/10;62;5000;NAO;OK;
+2026-11-24 14:35:00;202611;Seta para baixo 5/10;47;5000;NAO;OK;
+2026-11-24 14:35:00;202611;Seta para baixo 6/10;47;5000;NAO;OK;
+2026-11-24 14:35:00;202611;Seta para baixo 7/10;47;5000;NAO;OK;
+2026-11-24 14:35:00;202611;Seta para baixo 8/10;47;5000;NAO;OK;
+2026-11-24 14:35:00;202611;Seta para baixo 9/10;46;5000;NAO;OK;
+2026-11-24 14:35:00;202611;Seta para baixo 10/10;47;5000;NAO;OK;
+2026-11-24 14:35:01;202611;Selecionar formato CSV;125;5000;NAO;OK;tempo desde Enter que confirmou match ate aqui=1515ms
+2026-11-24 14:35:01;202611;Estado apos Enter final (formato);172;5000;NAO;OK;Exportar para XML
+2026-11-24 14:35:19;202611;Janela Salvar como;17813;5000;SIM;OK;saiu da URL do site (Salvar como presumido em foco)
+2026-11-24 14:35:20;202611;Definir pasta destino;1922;5000;NAO;OK;A:\setorsistemas\Facil Informatica\_FOLHAPAGAMENTO\ARQUIVOS ESOCIAL\Exportados\112026\CONSULTA EVENTOS
+2026-11-24 14:35:22;202611;Salvar arquivo;1984;5000;NAO;OK;202611_INATIVOS_Consulta Eventos
+2026-11-24 14:35:24;202611;Estado antes de Voltar;1750;5000;NAO;OK;https://admrhinativos.caxias.rs.gov.br/rhsysweb/secure/XcpExecObjForm.xhtml?com.xcape.codObjeto=Consulta%20Eventos
+2026-11-24 14:35:25;202611;Localizar: Voltar;1062;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-11-24 14:35:26;202611;Confirmar Voltar (tentativa 1);813;5000;NAO;OK;
+2026-11-24 14:35:27;202611;Aguardar PAGINA1;906;10000;NAO;OK;esperou 890ms
+2026-11-24 14:35:27;202611;Fim ciclo e-Social;0;5000;NAO;OK;duracao_total_ms=45562
+2026-11-24 14:35:40;202611;Inserir Tipo Folha: caixa difere, vai limpar e reinserir;281;5000;NAO;OK;atuais=1,22,23,9 pretendidos=2,10,32,33
+2026-11-24 14:35:42;202611;Limpar caixa Tipo Folha;2000;5000;NAO;OK;
+2026-11-24 14:35:43;202611;Limpar caixa Tipo Folha;953;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-11-24 14:35:50;202611;Inserir Tipo Folha;7094;5000;SIM;OK;qtd=4 valores=2,10,32,33 lidas=10 - Suplementar (Pensionista) ## 2 - MENSAL - Pensionistas ## 32 - Suplementar - Dias em Vida (Pens.) ## 33 - Suplementar - Recadastr. (Pens.)
+2026-11-24 14:35:54;202611;Inicio ciclo e-Social;3813;5000;NAO;OK;datainicio=01/11/2026 datafim=30/11/2026 entidade=PENSIONISTAS
+2026-11-24 14:35:54;202611;Aguardar PAGINA1;234;10000;NAO;OK;esperou 219ms
+2026-11-24 14:35:54;202611;Inserir Conta: ja correto, pulando limpar/inserir;156;5000;NAO;OK;valores=476,545,478,485,398,746,747,722,7849,7852,542,845,7846,7851,7850,851,7851,852,848,541,7845,849,853,484,739,840
+2026-11-24 14:35:55;202611;Localizar: Referência;1063;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-11-24 14:35:55;202611;Digitar data inicio;140;5000;NAO;OK;01/11/2026
+2026-11-24 14:35:55;202611;Tab entre campos;125;5000;NAO;OK;qtd=2
+2026-11-24 14:35:56;202611;Digitar data fim;125;5000;NAO;OK;30/11/2026
+2026-11-24 14:35:57;202611;Localizar: Executar;969;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-11-24 14:35:57;202611;Confirmar Executar (tentativa 1);297;5000;NAO;OK;
+2026-11-24 14:35:59;202611;Aguardar PAGINA2;2016;10000;NAO;OK;esperou 2000ms
+2026-11-24 14:35:59;202611;Obter quantidade resultados;343;5000;NAO;OK;qtd=947
+2026-11-24 14:36:00;202611;Confirmar Exportar em PDF;1000;5000;NAO;OK;
+2026-11-24 14:36:01;202611;Seta para baixo 1/10;844;5000;NAO;OK;
+2026-11-24 14:36:01;202611;Seta para baixo 2/10;47;5000;NAO;OK;
+2026-11-24 14:36:01;202611;Seta para baixo 3/10;47;5000;NAO;OK;
+2026-11-24 14:36:01;202611;Seta para baixo 4/10;47;5000;NAO;OK;
+2026-11-24 14:36:01;202611;Seta para baixo 5/10;47;5000;NAO;OK;
+2026-11-24 14:36:01;202611;Seta para baixo 6/10;47;5000;NAO;OK;
+2026-11-24 14:36:01;202611;Seta para baixo 7/10;46;5000;NAO;OK;
+2026-11-24 14:36:01;202611;Seta para baixo 8/10;47;5000;NAO;OK;
+2026-11-24 14:36:01;202611;Seta para baixo 9/10;47;5000;NAO;OK;
+2026-11-24 14:36:02;202611;Seta para baixo 10/10;31;5000;NAO;OK;
+2026-11-24 14:36:02;202611;Selecionar formato CSV;157;5000;NAO;OK;tempo desde Enter que confirmou match ate aqui=1516ms
+2026-11-24 14:36:02;202611;Estado apos Enter final (formato);156;5000;NAO;OK;Exportar para XML
+2026-11-24 14:36:07;202611;Janela Salvar como;5172;5000;SIM;OK;saiu da URL do site (Salvar como presumido em foco)
+2026-11-24 14:36:09;202611;Definir pasta destino;1859;5000;NAO;OK;A:\setorsistemas\Facil Informatica\_FOLHAPAGAMENTO\ARQUIVOS ESOCIAL\Exportados\112026\CONSULTA EVENTOS
+2026-11-24 14:36:11;202611;Salvar arquivo;1703;5000;NAO;OK;202611_PENSIONISTAS_Consulta Eventos
+2026-11-24 14:36:12;202611;Estado antes de Voltar;1750;5000;NAO;OK;https://admrhinativos.caxias.rs.gov.br/rhsysweb/secure/XcpExecObjForm.xhtml?com.xcape.codObjeto=Consulta%20Eventos
+2026-11-24 14:36:13;202611;Localizar: Voltar;1063;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-11-24 14:36:14;202611;Confirmar Voltar (tentativa 1);812;5000;NAO;OK;
+2026-11-24 14:36:15;202611;Aguardar PAGINA1;938;10000;NAO;OK;esperou 891ms
+2026-11-24 14:36:15;202611;Fim ciclo e-Social;15;5000;NAO;OK;duracao_total_ms=21343
+2026-11-24 14:38:17;202611;Inserir Tipo Folha: caixa difere, vai limpar e reinserir;281;5000;NAO;OK;atuais=10,2,32,33 pretendidos=1,9,22,23
+2026-11-24 14:38:19;202611;Limpar caixa Tipo Folha;1985;5000;NAO;OK;
+2026-11-24 14:38:20;202611;Limpar caixa Tipo Folha;937;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-11-24 14:38:27;202611;Inserir Tipo Folha;7094;5000;SIM;OK;qtd=4 valores=1,9,22,23 lidas=1 - MENSAL - Inativos ## 22 - Suplementar - Dias em Vida (Inat.) ## 23 - Suplementar - Recadastr. (Inativos) ## 9 - Suplementar (Inativos)
+2026-11-24 14:38:30;202611;Inicio ciclo e-Social;2687;5000;NAO;OK;datainicio=01/11/2026 datafim=30/11/2026 entidade=INATIVOS
+2026-11-24 14:38:30;202611;Aguardar PAGINA1;250;10000;NAO;OK;esperou 234ms
+2026-11-24 14:38:30;202611;Inserir Conta: ja correto, pulando limpar/inserir;157;5000;NAO;OK;valores=476,545,478,485,398,746,747,722,7849,7852,542,845,7846,7851,7850,851,7851,852,848,541,7845,849,853,484,739,840
+2026-11-24 14:38:31;202611;Localizar: Referência;1000;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-11-24 14:38:31;202611;Digitar data inicio;172;5000;NAO;OK;01/11/2026
+2026-11-24 14:38:32;202611;Tab entre campos;109;5000;NAO;OK;qtd=2
+2026-11-24 14:38:32;202611;Digitar data fim;125;5000;NAO;OK;30/11/2026
+2026-11-24 14:38:33;202611;Localizar: Executar;953;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-11-24 14:38:33;202611;Confirmar Executar (tentativa 1);391;5000;NAO;OK;
+2026-11-24 14:38:38;202611;Aguardar PAGINA2;5078;10000;NAO;OK;esperou 5063ms
+2026-11-24 14:38:38;202611;Obter quantidade resultados;281;5000;NAO;OK;qtd=7232
+2026-11-24 14:38:39;202611;Confirmar Exportar em PDF;1000;5000;NAO;OK;
+2026-11-24 14:38:40;202611;Seta para baixo 1/10;844;5000;NAO;OK;
+2026-11-24 14:38:40;202611;Seta para baixo 2/10;47;5000;NAO;OK;
+2026-11-24 14:38:40;202611;Seta para baixo 3/10;47;5000;NAO;OK;
+2026-11-24 14:38:40;202611;Seta para baixo 4/10;46;5000;NAO;OK;
+2026-11-24 14:38:40;202611;Seta para baixo 5/10;47;5000;NAO;OK;
+2026-11-24 14:38:40;202611;Seta para baixo 6/10;47;5000;NAO;OK;
+2026-11-24 14:38:41;202611;Seta para baixo 7/10;31;5000;NAO;OK;
+2026-11-24 14:38:41;202611;Seta para baixo 8/10;63;5000;NAO;OK;
+2026-11-24 14:38:41;202611;Seta para baixo 9/10;47;5000;NAO;OK;
+2026-11-24 14:38:41;202611;Seta para baixo 10/10;47;5000;NAO;OK;
+2026-11-24 14:38:41;202611;Selecionar formato CSV;125;5000;NAO;OK;tempo desde Enter que confirmou match ate aqui=1500ms
+2026-11-24 14:38:41;202611;Estado apos Enter final (formato);156;5000;NAO;OK;Exportar em PDF | ui-button | Executar | 
+2026-11-24 14:38:57;202611;Janela Salvar como;15828;5000;SIM;OK;saiu da URL do site (Salvar como presumido em foco)
+2026-11-24 14:38:59;202611;Definir pasta destino;1844;5000;NAO;OK;A:\setorsistemas\Facil Informatica\_FOLHAPAGAMENTO\ARQUIVOS ESOCIAL\Exportados\112026\CONSULTA EVENTOS
+2026-11-24 14:39:00;202611;Salvar arquivo;1719;5000;NAO;OK;202611_INATIVOS_Consulta Eventos
+2026-11-24 14:39:02;202611;Estado antes de Voltar;1750;5000;NAO;OK;https://admrhinativos.caxias.rs.gov.br/rhsysweb/secure/XcpExecObjForm.xhtml?com.xcape.codObjeto=Consulta%20Eventos
+2026-11-24 14:39:10;202611;Localizar: Voltar;8312;5000;SIM;OK;tabsExtras=0 ativarComEnter=0
+2026-11-24 14:39:11;202611;Confirmar Voltar (tentativa 1);844;5000;NAO;OK;
+2026-11-24 14:39:12;202611;Aguardar PAGINA1;890;10000;NAO;OK;esperou 875ms
+2026-11-24 14:39:12;202611;Fim ciclo e-Social;16;5000;NAO;OK;duracao_total_ms=42266
+2026-11-24 15:00:03;202611;Inserir Tipo Folha: caixa difere, vai limpar e reinserir;296;5000;NAO;OK;atuais=1,22,23,9 pretendidos=2,10,32,33
+2026-11-24 15:00:05;202611;Limpar caixa Tipo Folha;2000;5000;NAO;OK;
+2026-11-24 15:00:06;202611;Limpar caixa Tipo Folha;1000;5000;NAO;AVISO;ainda parece ter valor(es) na caixa mesmo apos Limpar — seguindo em frente (checagem sujeita a falso alarme)
+2026-11-24 15:00:13;202611;Inserir Tipo Folha;7094;5000;SIM;OK;qtd=4 valores=2,10,32,33 lidas=10 - Suplementar (Pensionista) ## 2 - MENSAL - Pensionistas ## 32 - Suplementar - Dias em Vida (Pens.) ## 33 - Suplementar - Recadastr. (Pens.)
+2026-11-24 15:00:18;202611;Inicio ciclo e-Social;5297;5000;SIM;OK;datainicio=01/11/2026 datafim=30/11/2026 entidade=PENSIONISTAS
+2026-11-24 15:00:18;202611;Aguardar PAGINA1;234;10000;NAO;OK;esperou 218ms
+2026-11-24 15:00:18;202611;Inserir Conta: ja correto, pulando limpar/inserir;157;5000;NAO;OK;valores=476,545,478,485,398,746,747,722,7849,7852,542,845,7846,7851,7850,851,7851,852,848,541,7845,849,853,484,739,840
+2026-11-24 15:00:19;202611;Localizar: Referência;1062;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-11-24 15:00:20;202611;Digitar data inicio;125;5000;NAO;OK;01/11/2026
+2026-11-24 15:00:20;202611;Tab entre campos;125;5000;NAO;OK;qtd=2
+2026-11-24 15:00:20;202611;Digitar data fim;125;5000;NAO;OK;30/11/2026
+2026-11-24 15:00:21;202611;Localizar: Executar;969;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-11-24 15:00:21;202611;Confirmar Executar (tentativa 1);297;5000;NAO;OK;
+2026-11-24 15:00:28;202611;Aguardar PAGINA2;6515;10000;NAO;OK;esperou 6484ms
+2026-11-24 15:00:28;202611;Obter quantidade resultados;297;5000;NAO;OK;qtd=947
+2026-11-24 15:00:29;202611;Confirmar Exportar em PDF;1000;5000;NAO;OK;
+2026-11-27 12:56:15;-;Inserir Tipo Folha: ja correto, pulando limpar/inserir;313;5000;NAO;OK;valores=1,12,16,22,4
+2026-11-27 12:56:24;202611;Inicio ciclo e-Social;9125;5000;SIM;OK;datainicio=01/11/2026 datafim=30/11/2026 entidade=CAMARA
+2026-11-27 12:56:24;202611;Aguardar PAGINA1;234;10000;NAO;OK;esperou 218ms
+2026-11-27 12:56:24;202611;Inserir Conta: caixa difere, vai limpar e reinserir;157;5000;NAO;OK;atuais=476,541,8401,8411,8412,845,848 pretendidos=476,545,478,485,398,746,747,722,542,845,851,543,852,848,541,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-11-27 12:56:26;202611;Limpar caixa Conta;2109;5000;NAO;OK;
+2026-11-27 12:57:03;202611;Inserir Conta: valor(es) aparentemente faltando (checagem sujeita a falso alarme);36500;5000;SIM;AVISO;faltando=545 valores_inseridos=476,545,478,485,398,746,747,722,542,845,851,543,852,848,541,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412 lidas=398 - Reembolso Lei 3673 - Art.181 / AT ## 476 - Dif. Crédito IPAM Saúde ## 478 - Devolução IPAM Saúde ## 484 - Dev. IPAM - Reposição ## 485 - Reembolso IPAM ## 541 - Desconto reposição não dedutível ## 542 - IPAM - empréstimos não dedutível ## 543 - Dif. Deb. IPAM Saude não dedutível ## 722 - IPAM - Empréstimos ## 739 - Dev. Reposição não dedutível ## 746 - Reembolso IPAM não dedutível ## 747 - Reembolso Lei 3673 - Art 181/19 não dedutível ## 840 - Taxa de 2° via - Carteira do IPAM-SAÚDE ## 8401 - IPAM Saúde - Férias Jan. ## 8402 - IPAM Saúde - Férias Fev. ## 8403 - IPAM Saúde - Férias Mar. ## 8404 - IPAM Saúde - Férias Abr. ## 8405 - IPAM Saúde - Férias Mai. ## 8406 - IPAM Saúde - Férias Jun. ## 8407 - IPAM Saúde - Férias Jul. ## 8408 - IPAM Saúde - Férias Ago. ## 8409 - IPAM Saúde - Férias Set. ## 8410 - IPAM Saúde - Férias Out. ## 8411 - IPAM Saúde - Férias Nov. ## 8412 - IPAM Saúde - Férias Dez. ## 845 - IPAM Saúde ## 848 - IPAM - Reposição ## 849 - Saldo IPAM Reposição ## 851 - Dif. Deb. IPAM Saúde ## 852 - IPAM Saúde (14% Padrão 01) ## 853 - Dif. IPAM Saúde (14% Padrão 01)
+2026-11-27 12:57:03;202611;Aplicar Conta (e-Social);78;5000;NAO;AVISO;faltando apos 1a insercao=545 - tentando reinserir apenas os faltantes
+2026-11-27 12:57:07;202611;Inserir Conta: valor(es) aparentemente faltando (checagem sujeita a falso alarme);4063;5000;NAO;AVISO;faltando=545 valores_inseridos=545 lidas=398 - Reembolso Lei 3673 - Art.181 / AT ## 476 - Dif. Crédito IPAM Saúde ## 478 - Devolução IPAM Saúde ## 484 - Dev. IPAM - Reposição ## 485 - Reembolso IPAM ## 541 - Desconto reposição não dedutível ## 542 - IPAM - empréstimos não dedutível ## 543 - Dif. Deb. IPAM Saude não dedutível ## 722 - IPAM - Empréstimos ## 739 - Dev. Reposição não dedutível ## 746 - Reembolso IPAM não dedutível ## 747 - Reembolso Lei 3673 - Art 181/19 não dedutível ## 840 - Taxa de 2° via - Carteira do IPAM-SAÚDE ## 8401 - IPAM Saúde - Férias Jan. ## 8402 - IPAM Saúde - Férias Fev. ## 8403 - IPAM Saúde - Férias Mar. ## 8404 - IPAM Saúde - Férias Abr. ## 8405 - IPAM Saúde - Férias Mai. ## 8406 - IPAM Saúde - Férias Jun. ## 8407 - IPAM Saúde - Férias Jul. ## 8408 - IPAM Saúde - Férias Ago. ## 8409 - IPAM Saúde - Férias Set. ## 8410 - IPAM Saúde - Férias Out. ## 8411 - IPAM Saúde - Férias Nov. ## 8412 - IPAM Saúde - Férias Dez. ## 845 - IPAM Saúde ## 848 - IPAM - Reposição ## 849 - Saldo IPAM Reposição ## 851 - Dif. Deb. IPAM Saúde ## 852 - IPAM Saúde (14% Padrão 01) ## 853 - Dif. IPAM Saúde (14% Padrão 01)
+2026-11-27 12:57:07;202611;Aplicar Conta (e-Social);109;5000;NAO;ABORTADO;faltando apos retry=545, entidade=CAMARA
+2026-11-27 12:57:08;202611;Estado antes de Voltar;953;5000;NAO;OK; | Câmara de Vereadores de Caxias do Sul | [Calculadoras] Priscila | Sair | Relatórios | Relatórios Dinâmicos | Geração de Arquivos | Documentos | Consultas Dinâmicas |  |     Consulta de Eventos |  | Importação Dados IPAM | Portal | eSocial | Controle de Acessos | Consulta de Eventos | [Adicionar/Remover Favoritos] 	 | 	[Ejetar Janela] | Selecione Configuração | Filtros Gerais | Tipo Folha: | 	 | BuscarLimparEditar Tabela | 	 | 	Tipo Folha | 	Tipo Folha | 	1 - MENSAL | 	12 - Rescisão Complementar | 	16 - Suplementar | 	22 - COMPLEMENTAR - AVULSAS | 	4 - RESCISÃO DE CONTRATO | 	ui-button | Referência: | 	 | ui-button | até | ui-button | Data de Pagamento: | 	 | ui-button | até | ui-button | Disponibilidade Folha:* | 	 | Apenas folhas que compõem pagamento | Todos os tipos de folha | Tipo da Conta: | 	 | BuscarLimparEditar Tabela | 	 | 	Tipo da Conta | 	Tipo da Conta | 	Base | 	Consignado | 	Desconto | 	Provento | 	Resultado | 	ui-button | Tipo Lançamento Conta: | 	 | BuscarLimparEditar Tabela | 	 | 	Tipo Lançamento Conta | 	Tipo Lançamento Conta | 	Calculado | 	Diferenças retroativas | 	Fixo | 	Importado | 	Lançamentos | 	Outras folhas | 	Ponto | 	Relógio | 	ui-button | Conta: | 	 | BuscarLimparEditar Tabela | 	 | 	Conta | 	Conta | 	476 - Dif. Crédito IPAM Saúde | 	478 - Devolução IPAM Saúde | 	485 - Reembolso IPAM | 	398 - Reembolso Lei 3673 - Art.181 / AT | 	746 - Reembolso IPAM não dedutível | 	747 - Reembolso Lei 3673 - Art 181/19 não dedutível | 	722 - IPAM - Empréstimos | 	542 - IPAM - empréstimos não dedutível | 	845 - IPAM Saúde | 	851 - Dif. Deb. IPAM Saúde | 	543 - Dif. Deb. IPAM Saude não dedutível | 	852 - IPAM Saúde (14% Padrão 01) | 	848 - IPAM - Reposição | 	541 - Desconto reposição não dedutível | 	849 - Saldo IPAM Reposição | 	853 - Dif. IPAM Saúde (14% Padrão 01) | 	484 - Dev. IPAM - Reposição | 	739 - Dev. Reposição não dedutível | 	840 - Taxa de 2° via - Carteira do IPAM-SAÚDE | 	8401 - IPAM Saúde - Férias Jan. | 	8402 - IPAM Saúde - Férias Fev. ...(truncado, total=3043 chars)
+2026-11-27 12:57:09;202611;Localizar: Voltar;1063;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-11-27 12:57:10;202611;Confirmar Voltar (tentativa 1);796;5000;NAO;OK;
+2026-11-27 12:57:10;202611;Aguardar PAGINA1;235;10000;NAO;OK;esperou 219ms
+2026-11-27 12:57:10;202611;Fim ciclo e-Social;15;5000;NAO;OK;duracao_total_ms=46312
+2026-11-27 13:12:27;-;Inserir Tipo Folha: ja correto, pulando limpar/inserir;265;5000;NAO;OK;valores=1,12,16,22,4
+2026-11-27 13:12:30;202611;Inicio ciclo e-Social;3469;5000;NAO;OK;datainicio=01/11/2026 datafim=30/11/2026 entidade=CAMARA
+2026-11-27 13:12:31;202611;Aguardar PAGINA1;235;10000;NAO;OK;esperou 219ms
+2026-11-27 13:12:31;202611;Inserir Conta: caixa difere, vai limpar e reinserir;171;5000;NAO;OK;atuais=398,476,478,484,485,541,542,543,722,739,746,747,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412,845,848,849,851,852,853 pretendidos=476,545,478,485,398,746,747,722,542,845,851,543,852,848,541,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-11-27 13:12:33;202611;Limpar caixa Conta;2110;5000;NAO;OK;
+2026-11-27 13:13:03;202611;Inserir Conta: valor(es) aparentemente faltando (checagem sujeita a falso alarme);30484;5000;SIM;AVISO;faltando=398,746,845,853,739,8402,8405,8408 valores_inseridos=476,545,478,485,398,746,747,722,542,845,851,543,852,848,541,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412 lidas=476 - Dif. Crédito IPAM Saúde ## 478 - Devolução IPAM Saúde ## 484 - Dev. IPAM - Reposição ## 485 - Reembolso IPAM ## 541 - Desconto reposição não dedutível ## 542 - IPAM - empréstimos não dedutível ## 543 - Dif. Deb. IPAM Saude não dedutível ## 545 - Dif. Crédito IPAM Saúde não dedutível ## 722 - IPAM - Empréstimos ## 747 - Reembolso Lei 3673 - Art 181/19 não dedutível ## 840 - Taxa de 2° via - Carteira do IPAM-SAÚDE ## 8401 - IPAM Saúde - Férias Jan. ## 8403 - IPAM Saúde - Férias Mar. ## 8404 - IPAM Saúde - Férias Abr. ## 8406 - IPAM Saúde - Férias Jun. ## 8407 - IPAM Saúde - Férias Jul. ## 8409 - IPAM Saúde - Férias Set. ## 8410 - IPAM Saúde - Férias Out. ## 8411 - IPAM Saúde - Férias Nov. ## 8412 - IPAM Saúde - Férias Dez. ## 848 - IPAM - Reposição ## 849 - Saldo IPAM Reposição ## 851 - Dif. Deb. IPAM Saúde ## 852 - IPAM Saúde (14% Padrão 01)
+2026-11-27 13:13:04;202611;Aplicar Conta (e-Social);125;5000;NAO;AVISO;faltando apos 1a insercao=398,746,845,853,739,8402,8405,8408 - tentando reinserir apenas os faltantes
+2026-11-27 13:13:13;202611;Inserir Conta: valor(es) aparentemente faltando (checagem sujeita a falso alarme);9656;5000;SIM;AVISO;faltando=398,746,845,853,739,8402,8405,8408 valores_inseridos=398,746,845,853,739,8402,8405,8408 lidas=
+2026-11-27 13:13:13;202611;Aplicar Conta (e-Social);79;5000;NAO;ABORTADO;faltando apos retry=398,746,845,853,739,8402,8405,8408, entidade=CAMARA
+2026-11-27 13:13:14;202611;Estado antes de Voltar;953;5000;NAO;OK;8408
+2026-11-27 13:16:56;-;Inserir Tipo Folha: ja correto, pulando limpar/inserir;297;5000;NAO;OK;valores=1,12,16,22,4
+2026-11-27 13:17:04;202609;Inicio ciclo;8062;5000;SIM;OK;datainicio=01/09/2026 datafim=30/09/2026
+2026-11-27 13:17:04;202609;Aguardar PAGINA1;235;10000;NAO;OK;esperou 235ms
+2026-11-27 13:17:05;202609;Localizar: Referência;969;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-11-27 13:17:05;202609;Digitar data inicio;125;5000;NAO;OK;01/09/2026
+2026-11-27 13:17:05;202609;Tab entre campos;125;5000;NAO;OK;qtd=2
+2026-11-27 13:17:06;202609;Digitar data fim;125;5000;NAO;OK;30/09/2026
+2026-11-27 13:17:07;202609;Localizar: Executar;968;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-11-27 13:17:07;202609;Confirmar Executar (tentativa 1);297;5000;NAO;OK;
+2026-11-27 13:17:09;202609;Aguardar PAGINA2;2469;10000;NAO;OK;esperou 2438ms
+2026-11-27 13:17:10;202609;Obter quantidade resultados;281;5000;NAO;OK;qtd=26
+2026-11-27 13:17:27;-;Inserir Tipo Folha: ja correto, pulando limpar/inserir;343;5000;NAO;OK;valores=1,12,16,22,4
+2026-11-27 13:17:30;202611;Inicio ciclo e-Social;2844;5000;NAO;OK;datainicio=01/11/2026 datafim=30/11/2026 entidade=CAMARA
+2026-11-27 13:17:30;202611;Aguardar PAGINA1;235;10000;NAO;OK;esperou 219ms
+2026-11-27 13:17:30;202611;Inserir Conta: caixa difere, vai limpar e reinserir;156;5000;NAO;OK;atuais=476,478,484,485,541,542,543,545,722,747,840,8401,8403,8404,8406,8407,8409,8410,8411,8412,848,849,851,852 pretendidos=476,545,478,485,398,746,747,722,542,845,851,543,852,848,541,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412
+2026-11-27 13:17:32;202611;Limpar caixa Conta;2094;5000;NAO;OK;
+2026-11-27 13:17:59;202611;Inserir Conta;26984;5000;SIM;OK;qtd=32 valores=476,545,478,485,398,746,747,722,542,845,851,543,852,848,541,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412 lidas=398 - Reembolso Lei 3673 - Art.181 / AT ## 476 - Dif. Crédito IPAM Saúde ## 478 - Devolução IPAM Saúde ## 484 - Dev. IPAM - Reposição ## 485 - Reembolso IPAM ## 541 - Desconto reposição não dedutível ## 542 - IPAM - empréstimos não dedutível ## 543 - Dif. Deb. IPAM Saude não dedutível ## 545 - Dif. Crédito IPAM Saúde não dedutível ## 722 - IPAM - Empréstimos ## 739 - Dev. Reposição não dedutível ## 746 - Reembolso IPAM não dedutível ## 747 - Reembolso Lei 3673 - Art 181/19 não dedutível ## 840 - Taxa de 2° via - Carteira do IPAM-SAÚDE ## 8401 - IPAM Saúde - Férias Jan. ## 8402 - IPAM Saúde - Férias Fev. ## 8403 - IPAM Saúde - Férias Mar. ## 8404 - IPAM Saúde - Férias Abr. ## 8405 - IPAM Saúde - Férias Mai. ## 8406 - IPAM Saúde - Férias Jun. ## 8407 - IPAM Saúde - Férias Jul. ## 8408 - IPAM Saúde - Férias Ago. ## 8409 - IPAM Saúde - Férias Set. ## 8410 - IPAM Saúde - Férias Out. ## 8411 - IPAM Saúde - Férias Nov. ## 8412 - IPAM Saúde - Férias Dez. ## 845 - IPAM Saúde ## 848 - IPAM - Reposição ## 849 - Saldo IPAM Reposição ## 851 - Dif. Deb. IPAM Saúde ## 852 - IPAM Saúde (14% Padrão 01) ## 853 - Dif. IPAM Saúde (14% Padrão 01)
+2026-11-27 13:18:00;202611;Localizar: Referência;1000;5000;NAO;OK;tabsExtras=1 ativarComEnter=1
+2026-11-27 13:18:00;202611;Digitar data inicio;141;5000;NAO;OK;01/11/2026
+2026-11-27 13:18:01;202611;Tab entre campos;125;5000;NAO;OK;qtd=2
+2026-11-27 13:18:01;202611;Digitar data fim;125;5000;NAO;OK;30/11/2026
+2026-11-27 13:18:02;202611;Localizar: Executar;968;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-11-27 13:18:02;202611;Confirmar Executar (tentativa 1);297;5000;NAO;OK;
+2026-11-27 13:18:03;202611;Aguardar PAGINA2;1328;10000;NAO;OK;esperou 1312ms
+2026-11-27 13:18:04;202611;Obter quantidade resultados;297;5000;NAO;OK;qtd=42
+2026-11-27 13:18:05;202611;Confirmar Exportar em PDF;1016;5000;NAO;OK;
+2026-11-27 13:18:05;202611;Seta para baixo 1/10;844;5000;NAO;OK;
+2026-11-27 13:18:06;202611;Seta para baixo 2/10;62;5000;NAO;OK;
+2026-11-27 13:18:06;202611;Seta para baixo 3/10;47;5000;NAO;OK;
+2026-11-27 13:18:06;202611;Seta para baixo 4/10;47;5000;NAO;OK;
+2026-11-27 13:18:06;202611;Seta para baixo 5/10;47;5000;NAO;OK;
+2026-11-27 13:18:06;202611;Seta para baixo 6/10;47;5000;NAO;OK;
+2026-11-27 13:18:06;202611;Seta para baixo 7/10;46;5000;NAO;OK;
+2026-11-27 13:18:06;202611;Seta para baixo 8/10;32;5000;NAO;OK;
+2026-11-27 13:18:06;202611;Seta para baixo 9/10;31;5000;NAO;OK;
+2026-11-27 13:18:06;202611;Seta para baixo 10/10;47;5000;NAO;OK;
+2026-11-27 13:18:06;202611;Selecionar formato CSV;125;5000;NAO;OK;tempo desde Enter que confirmou match ate aqui=1485ms
+2026-11-27 13:18:06;202611;Estado apos Enter final (formato);156;5000;NAO;OK;Exportar em PDF | ui-button | Executar | 
+2026-11-27 13:18:11;202611;Janela Salvar como;4516;5000;NAO;OK;saiu da URL do site (Salvar como presumido em foco)
+2026-11-27 13:18:13;202611;Definir pasta destino;1890;5000;NAO;OK;A:\setorsistemas\Facil Informatica\_FOLHAPAGAMENTO\ARQUIVOS ESOCIAL\Exportados\112026\CONSULTA EVENTOS
+2026-11-27 13:18:14;202611;Salvar arquivo;1657;5000;NAO;OK;202611_CAMARA_Consulta Eventos
+2026-11-27 13:18:16;202611;Estado antes de Voltar;1781;5000;NAO;OK;https://admrhcamara.caxias.rs.gov.br/rhsysweb/secure/XcpExecObjForm.xhtml?com.xcape.codObjeto=Consulta%20Eventos
+2026-11-27 13:18:17;202611;Localizar: Voltar;1094;5000;NAO;OK;tabsExtras=0 ativarComEnter=0
+2026-11-27 13:18:18;202611;Confirmar Voltar (tentativa 1);796;5000;NAO;OK;
+2026-11-27 13:18:19;202611;Aguardar PAGINA1;907;10000;NAO;OK;esperou 891ms
+2026-11-27 13:18:19;202611;Fim ciclo e-Social;15;5000;NAO;OK;duracao_total_ms=48953

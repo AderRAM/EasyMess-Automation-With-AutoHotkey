@@ -1,0 +1,10 @@
+202609;Inconsistencia: Apenas 18 resultado(s) encontrado(s) (minimo 20) | Etapa: validacao de quantidade na PAGINA2
+202610;ABORTADO - esperava PAGINA2 apos Executar, detectado 'PAGINA1' | Etapa: pos-Executar (envio do formulario da pagina 1). Verifique TABS_APOS_REFERENCIA/TABS_ENTRE_CAMPOS/TABS_APOS_EXECUTAR
+202610;ABORTADO - esperava PAGINA2 apos Executar, detectado 'SEM_LEITURA' | Etapa: pos-Executar (envio do formulario da pagina 1). Verifique TABS_APOS_REFERENCIA/TABS_ENTRE_CAMPOS/TABS_APOS_EXECUTAR
+202610;ABORTADO - esperava PAGINA1 apos Voltar, detectado 'PAGINA2' | Etapa: pos-Voltar (transicao pagina2 -> pagina1)
+202611;ABORTADO - codigo(s) de Conta nao inserido(s) apos retry: 544,478,485,398,746,747,722,542,845,873,546,851,543,852,848,541,872,849,853,484,739,840,8401,8402,8403,8404,8405,8406,8407,8408,8409,8410,8411,8412 (entidade=IPAM) | Etapa: Conta (e-Social)
+202611;ABORTADO - esperava PAGINA2 apos Executar, detectado 'PAGINA1' | Etapa: pos-Executar (envio do formulario da pagina 1). Verifique TABS_APOS_REFERENCIA/TABS_ENTRE_CAMPOS/TABS_APOS_EXECUTAR
+202611;ABORTADO - esperava PAGINA2 apos Executar, detectado 'PAGINA1' | Etapa: pos-Executar (envio do formulario da pagina 1). Verifique TABS_APOS_REFERENCIA/TABS_ENTRE_CAMPOS/TABS_APOS_EXECUTAR
+202611;ABORTADO - esperava PAGINA2 apos Executar, detectado 'PAGINA1' | Etapa: pos-Executar (envio do formulario da pagina 1). Verifique TABS_APOS_REFERENCIA/TABS_ENTRE_CAMPOS/TABS_APOS_EXECUTAR
+202611;ABORTADO - codigo(s) de Conta nao inserido(s) apos retry: 545 (entidade=CAMARA) | Etapa: Conta (e-Social)
+202611;ABORTADO - codigo(s) de Conta nao inserido(s) apos retry: 398,746,845,853,739,8402,8405,8408 (entidade=CAMARA) | Etapa: Conta (e-Social)
